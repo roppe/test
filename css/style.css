@@ -1385,7 +1385,8 @@ Pricing table
    margin-top: 30px;
    font-weight: 600;
    font-size: 3.0vh;
-   margin-bottom: 30px;
+   margin-bottom:15px;
+   padding-left: 11px;
   }
 
    .location-box .ph-number a{
@@ -1427,12 +1428,13 @@ Pricing table
   width: 100%;
   padding-top: 5px;
   margin-bottom: 5px;
-  margin-top: 30px;
+  margin-top: 10px;
   }
 
   .location-box .location-social h4{
   float: left;
   font-size: 16px;
+  color: #212020;
 
   }
 
@@ -2538,7 +2540,6 @@ transform:rotate(-45deg);
   font-weight: bold;
   font-size: 22px;
   text-align: center;
-  text-transform: uppercase;
    margin-bottom: 25px;
 
   }
@@ -2556,11 +2557,11 @@ transform:rotate(-45deg);
   }
 
    .city-long li .head-town{
-   color: #4AA659;
+   color: #484747;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
   text-align:left;
-  text-transform: uppercase;
+  margin-bottom: 5px;
 
   }
 
@@ -2803,8 +2804,8 @@ text-transform: uppercase;
 
 
   .process-page{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: #fff;
   background-image: url(../images/top-process-background.jpg);
     background-repeat: no-repeat;
@@ -2815,7 +2816,7 @@ text-transform: uppercase;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+  width: 22%;
   border-bottom: 1px solid #c4c2c2;
   padding-bottom: 15px;
   margin-bottom: 30px;
