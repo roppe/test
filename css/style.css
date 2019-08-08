@@ -1491,12 +1491,42 @@ margin-top: 30px;
 
 
 
+
 /********** Media **********/
 
 
 
 
 @media only screen and (max-width: 767px){
+
+
+.single-feau h5{
+  font-size: 11px !important;
+  margin-top: 5px !important;
+}
+
+.single-feau img{
+  float: none !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.single-feau .btn-price{
+  font-size: 10px !important;
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+  margin-top: 25px;
+  }
+
+
+
+
 
 .city-names-brooklyn li p{
   font-size: 10px!important;
@@ -1520,32 +1550,97 @@ margin-top: 30px;
     position: relative;
     width: 100%;
     overflow: hidden;
+    height: 260px;
  }
+
+
+.carousel-fullscreen .carousel-inner .item {
+    height: 260px !important;
+    min-height: 260px !important; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+}
+
+
  
 
 .carousel-caption .btn-banner-request-price {
-    font-size: 10px !important;
+    font-size: 9px !important;
     font-weight: 700;
-    padding-left:8px !important;
-    padding-right:8px !important;
-    padding-top:8px !important;
-    padding-bottom: 8px !important ;
-    left: 10% !important;
-    bottom: 10px !important;
+    padding-left:15px !important;
+    padding-right:15px !important;
+    padding-top:9px !important;
+    padding-bottom:9px !important ;
+    left:-20px !important;
+    bottom:-70px !important;
     position: absolute;
     text-transform: uppercase;
+
+   
 }
 
 .carousel-caption .btn-banner-pricing {
-    font-size: 10px !important;
+    font-size: 9px !important;
     font-weight: 700;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top:8px !important;
-    padding-bottom:8px !important;
-    left: 10% !important;
-    bottom: 55px !important;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    padding-top:9px !important;
+    padding-bottom:9px !important;
+    left:-190px !important;
+    bottom:-70px !important;
     position: absolute;
+    
+}
+
+.nyc-section .ph-number-location span{
+  font-size: 18px !important  ;
+}
+
+.nyc-section .ph-number-location a{
+  font-size:  19px !important ;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+.mynav .navbar-nav li a .fa-angle-down{
+  font-size: 25px;
+    vertical-align: -4px;
+    margin-left: 12px;
+}
+
+
+
+.mynav .navbar-nav li a {
+  text-align: center;
+  padding-top: 4px;padding-bottom: 4px;
+  font-size: 13px;
+
+}
+
+.mynav .navbar-nav>li>.dropdown-menu{
+  right: 0 !important;
+ 
+  margin-right: auto !important;
+  margin-left: auto !important;
+  
+  width:80%;
+  z-index: 9999;
+}
+
+.mynav .navbar-nav>li>.dropdown-menu li{
+  display: inline-block;
+  width: 40%;
 }
 
 .other-services h4{
@@ -1651,7 +1746,7 @@ margin-top: 30px;
   transform: rotate(0);
 }
 .mynav .navbar-right {
-    margin-top: 15px;
+    margin-top: 2px;
 }
 .mynav .navbar-toggle{
       background: none !important;
@@ -2652,6 +2747,7 @@ input[type=checkbox], input[type=radio] {
     margin-top: 1px\9;
     line-height: normal;
     width: 18px;height: 18px;
+    vertical-align: -4px;
 }
 
 .form-group #upload{
@@ -2753,6 +2849,53 @@ text-transform: uppercase;
   cursor: pointer;
   background:#1173df; 
 }
+
+
+.top-features{
+  background-color: #4ba75a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+  
+  .single-feau{
+  border-right: 1px solid #439650;
+  }  
+
+  .single-feau:last-child{
+  border-right:none !important;
+  }
+
+  .single-feau img{
+  display: block;
+  float: left;
+  }
+
+  .single-feau h5{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-top: 27px;
+  }
+
+  .single-feau .btn-price{
+  font-size: 12px;
+  font-weight: 700;
+  background: #1D83F4;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  }
 
 
 .super-heading {

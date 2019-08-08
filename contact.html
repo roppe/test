@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -32,11 +33,14 @@
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+      <style>label.error { color: #f00; position: absolute; width: 300px !important; float: left; display: block;    bottom: 6px;    max-width: 300px;     bottom: -27px;    left: 0; } .form-group { position: relative; }</style>
    </head>
 
    <body>
 
-      <nav class="navbar navbar-default navbar-me mynav stickyMenu clearfix">
+     <nav class="navbar navbar-default navbar-me mynav stickyMenu clearfix">
 
          <div class="container-fluid">
 
@@ -136,6 +140,8 @@
 
     <div class="contact-us">
 
+      <form method="post" action = 'submit-handler.php' enctype="multipart/form-data" id = "contactformmain" novalidate="novalidate">
+
         <div class="container">
 
             
@@ -156,7 +162,7 @@
 
                     <label for="usr">Full Name:</label>
 
-                    <input type="text" class="form-control" id="" placeholder="Name" />
+                    <input type="text" class="form-control" placeholder="Name" name="userName" required/>
 
                   </div>
 
@@ -170,7 +176,7 @@
 
                     <label for="usr">Phone Number:</label>
 
-                    <input type="text" class="form-control" id="usr" placeholder="Phone" />
+                    <input type="text" class="form-control" placeholder="Phone" name="phone" required/>
 
                   </div>
 
@@ -184,7 +190,7 @@
 
                     <label for="usr">E-Mail:</label>
 
-                    <input type="text" class="form-control" id="usr" placeholder="Email" />
+                    <input type="text" class="form-control" placeholder="Email" name="userEmail"/>
 
                   </div>
 
@@ -196,7 +202,7 @@
 
                     <label for="usr">Zip Code:</label>
 
-                    <input type="text" class="form-control" id="usr" placeholder="Zip Code" />
+                    <input type="text" class="form-control" placeholder="Zip Code" name="zip" />
 
                   </div>
 
@@ -216,23 +222,23 @@
 
             <h4>Surface type:</h4>
 
-                <label class="checkbox-inline"><input type="checkbox" value="">Tub</label>
+                <label class="checkbox-inline"><input type="checkbox" value="Tub" name="SurfaceType[]">Tub</label>
 
-                <label class="checkbox-inline"><input type="checkbox" value="">Tile</label>
+                <label class="checkbox-inline"><input type="checkbox" value="Tile" name="SurfaceType[]">Tile</label>
 
-                <label class="checkbox-inline"><input type="checkbox" value="">Sink</label>
+                <label class="checkbox-inline"><input type="checkbox" value="Sink" name="SurfaceType[]">Sink</label>
 
-                <label class="checkbox-inline"><input type="checkbox" value=""> Claw Foot</label>
+                <label class="checkbox-inline"><input type="checkbox" value="Claw Foot" name="SurfaceType[]"> Claw Foot</label>
 
-                <label class="checkbox-inline"><input type="checkbox" value=""> Counter Top</label>
+                <label class="checkbox-inline"><input type="checkbox" value="Counter Top" name="SurfaceType[]"> Counter Top</label>
 
-                <label class="checkbox-inline"><input type="checkbox" value="">Jacuzzi</label>
+                <label class="checkbox-inline"><input type="checkbox" value="Jacuzzi" name="SurfaceType[]">Jacuzzi</label>
 
-                <label class="checkbox-inline"><input type="checkbox" value="">Regrout</label>
+                <label class="checkbox-inline"><input type="checkbox" value="Regrout" name="SurfaceType[]">Regrout</label>
 
-                <label class="checkbox-inline"><input type="checkbox" value="">Caulking</label>
+                <label class="checkbox-inline"><input type="checkbox" value="Caulking" name="SurfaceType[]">Caulking</label>
 
-                <label class="checkbox-inline"><input type="checkbox" value="">Other</label>
+                <label class="checkbox-inline"><input type="checkbox" value="Other" name="SurfaceType[]">Other</label>
 
                 <hr />
 
@@ -244,11 +250,11 @@
 
                         <h5>Has the tub / surface been reglazed before?</h5>
 
-                        <label class="checkbox-inline"><input type="checkbox" value="">Yes</label>
+                        <label class="checkbox-inline"><input type="radio" value="Yes" name="ReglazedBefore">Yes</label>
 
-                        <label class="checkbox-inline"><input type="checkbox" value="">No</label>
+                        <label class="checkbox-inline"><input type="radio" value="No" name="ReglazedBefore">No</label>
 
-                        <label class="checkbox-inline"><input type="checkbox" value="">Unknown</label>
+                        <label class="checkbox-inline"><input type="radio" value="Unknown" name="ReglazedBefore">Unknown</label>
 
                     </div>
 
@@ -258,11 +264,11 @@
 
                           <h5>Is the tub covered with:</h5>
 
-                        <label class="checkbox-inline"><input type="checkbox" value="">Curtains</label>
+                        <label class="checkbox-inline"><input type="radio" value="Curtains" name="TubCovered">Curtains</label>
 
-                        <label class="checkbox-inline"><input type="checkbox" value="">Glass door</label>
+                        <label class="checkbox-inline"><input type="radio" value="Glass door" name="TubCovered">Glass door</label>
 
-                        <label class="checkbox-inline"><input type="checkbox" value="">Unknown</label>
+                        <label class="checkbox-inline"><input type="radio" value="Unknown" name="TubCovered">Unknown</label>
 
                     </div>
 
@@ -276,13 +282,13 @@
                     
                      <div class="col-sm-4">
 
-                          <h5>Do you need caulking??</h5>  
+                          <h5>Do you need caulking?</h5>  
 
-                          <label class="checkbox-inline"><input type="checkbox" value="">Yes</label>
+                          <label class="checkbox-inline"><input name="Caulking" value="Yes"  type="radio">Yes</label>
 
-                          <label class="checkbox-inline"><input type="checkbox" value="">No</label>
+                          <label class="checkbox-inline"><input name="Caulking" value="No"  type="radio">No</label>
 
-                          <label class="checkbox-inline"><input type="checkbox" value="">Unknown</label>
+                          <label class="checkbox-inline"><input name="Caulking" value="Unknown"  type="radio">Unknown</label>
 
                     </div>
                    
@@ -291,11 +297,11 @@
 
                           <h5>Do you need Regrouting?</h5>  
 
-                          <label class="checkbox-inline"><input type="checkbox" value="">Yes</label>
+                          <label class="checkbox-inline"><input name="Regrouting" value="Yes" type="radio">Yes</label>
 
-                          <label class="checkbox-inline"><input type="checkbox" value="">No</label>
+                          <label class="checkbox-inline"><input name="Regrouting" value="No" type="radio">No</label>
 
-                          <label class="checkbox-inline"><input type="checkbox" value="">Unknown</label>
+                          <label class="checkbox-inline"><input name="Regrouting" value="Unknown" type="radio">Unknown</label>
 
                     </div>
 
@@ -303,11 +309,11 @@
 
                           <h5>Do you need Anti Slip Application?</h5>  
 
-                          <label class="checkbox-inline"><input type="checkbox" value="">Yes</label>
+                          <label class="checkbox-inline"><input name="AntiSlip" value="Yes" type="radio">Yes</label>
 
-                          <label class="checkbox-inline"><input type="checkbox" value="">No</label>
+                          <label class="checkbox-inline"><input name="AntiSlip" value="No" type="radio">No</label>
 
-                          <label class="checkbox-inline"><input type="checkbox" value="">Unknown</label>
+                          <label class="checkbox-inline"><input name="AntiSlip" value="Unknown" type="radio">Unknown</label>
 
                     </div>
 
@@ -317,7 +323,7 @@
 
                   <label for="upload" class="upload-label">Please Attach / Provide a few images of your items (if the items are heavily damaged provide up close photos) :</label>
 
-                  <input type="file" class="form-control" id="upload">
+                  <input type="file" class="form-control" id="upload" name="attachment[]" multiple="multiple">
 
                 </div>
 
@@ -327,7 +333,7 @@
 
                   <label for="comment">Add Comment:</label>
 
-                  <textarea class="form-control" rows="4" id="comment"></textarea>
+                  <textarea class="form-control" rows="4" id="comment" name="comments"></textarea>
 
                 </div>
 
@@ -336,18 +342,20 @@
                 <!-- <h5></h5> -->
 
 
+                <div class="g-recaptcha" data-sitekey="6Le-YasUAAAAAAMeNClnSazMk3WxlA6fUOhY2EfT"></div>
 
                 
 
                 <hr />
 
-                <p class="text-center"><a href="" class="btn btn-success btn-lg btn-submit">Submit For Free Quote</a></p>
+                <p class="text-center"><button type="submit" class="btn btn-success btn-lg btn-submit">Submit For Free Quote</button></p>
 
 
 
 
 
         </div>
+      </form>
 
     </div>
 
@@ -360,8 +368,6 @@
       
 
      
-
-        <!-- Footer -->
 
       <footer class="footer-bs">
 
@@ -451,7 +457,6 @@
             </div> <!-- container -->
 
       </footer>
-
 
       <div class="copyrights wow fadeInDown">
 
@@ -550,8 +555,46 @@
     });
 
 });
-
-
+         $(document).ready(function(){
+          $("#contactformmain").validate({ // initialize the plugin
+                rules: {
+                    'userName': {
+                        required: true,
+                        minlength: 2
+                    },
+                    'phone': {
+                        required: true,
+                        minlength: 8
+                    },
+                    'userEmail': {
+                          required: true,
+                          email: true,
+                          minlength: 2
+                    },
+                    'SurfaceType[]': {
+                        required: true
+                    }
+                },
+                messages: {
+                      'userName': {
+                        required: "Please enter your name.",
+                        minlength: 2
+                    },
+                    'phone': {
+                        required: "Please enter your phone.",
+                        minlength: "Please enter valid phone number."
+                    },
+                    'userEmail': {
+                        required: "Please enter your email.",
+                        email: "Please enter your email.",
+                        minlength: "Please enter valid phone number."
+                    },
+                    'SurfaceType[]': {
+                        required: "Please enter Surface Type."
+                    }
+                }
+            });
+         });
 
       </script>
 
