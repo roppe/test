@@ -23,7 +23,7 @@
 	 .main-navigation .logo-header{
     display: block;
     float: left;
-    width:270px !important;height:88px;
+    width:295px !important;height:88px;
     background:url(../img/sutphin-logo.png) 0 0 no-repeat;
     margin-right: 0 !important;
     margin-top: 10px;
@@ -3058,8 +3058,432 @@
     }
 
 
+    /*  EYEWEAR GLALERY PAGE  */
 
 
+    .banner-eyewear-cover {
+    padding-top: 160px;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #eee;
+    background-color: #1d2a38;
+   /* background: url(../img/contact-page-banner.jpg);*/
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-bottom: 1px solid #fafafa;
+    }
+
+    .banner-eyewear-cover .eyewear-text-head h6 {
+    font-size: 18px;
+    font-family: "Open Sans";
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    }
+
+     .banner-eyewear-cover .eyewear-text-head h2 {
+    font-size: 38px;
+    font-family: "Open Sans";
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    }
+
+    .banner-eyewear-cover .eyewear-text-head{
+        margin-bottom: 25px;
+    }
+
+    .wear-img-top{
+
+    }
+
+    .wear-brand-sc{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    width: 100%;
+    display: block;
+    background-color: #1f3042;
+    }
+
+    .wear-brand-sc .text-box-sc{
+    display: block;
+    width: 100%;
+    }
+
+    .wear-brand-sc .text-box-sc h2{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #fff !important;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+    }
+
+    .wear-brand-sc .text-box-sc h4{
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #fafafa;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    }
+    
+    .wear-brand-sc .eyewear-brands-list{
+    display: block;
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+    list-style: none;
+    margin-right: auto;margin-left: auto;
+    }
+
+    .eyewear-brands-list li{
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    background-color: #23364a;
+    margin-right: 10px;
+    padding-top: 15px;padding-bottom: 15px;
+    }
+
+     .eyewear-brands-list li:hover{
+         background-color: #23364a;
+     }
+
+    .eyewear-brands-list li:last-child{
+    margin-right: 0;
+    }
+
+    .eyewear-brands-list li img{
+    margin-right: auto;margin-left: auto;
+    display: block;
+    }
+
+
+    /* ABOUT US SECTION ON HOME PAGE */
+
+    .hm-about-side{
+    padding-bottom: 2%;padding-top:35px;
+    padding-left:20px;
+    padding-right:20px;
+    }
+
+
+    .hm-about-side .text-inner .line-div{
+    width: 35px;
+    display: block;
+    border: 2px solid #ffffff;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;margin-right: auto;
+    }
+
+    .hm-about-side .text-inner h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+   font-family: "Open Sans";
+    }
+
+
+    .hm-about-side .text-inner h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .hm-about-side .text-inner p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+   font-family: "Open Sans";
+    }
+
+    .hm-about-side .text-inner .btn-go-about{
+    display: inline-block;
+    width: 180px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #228de8;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #228de8;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    white-space: normal !important;
+    word-wrap: break-word !important; 
+    }
+
+    .hm-about-side .promo-box-offer{
+    padding-top:15px;padding-bottom: 15px;
+    width: 100%;
+    background-color:#283b50;
+    float: left;
+    padding-left: 10px;padding-right: 10px;
+    }
+
+    .hm-about-side .promo-box-offer h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom:10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";  
+    text-transform: uppercase;
+    }
+
+    .hm-about-side .promo-box-offer p{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";  
+    margin-bottom: 3px;
+    }
+
+    .hm-about-side .promo-box-offer  .go-about {
+    display: block;
+    background-color: transparent;
+    margin-right:auto;
+    margin-top:20px;
+    text-decoration: none;
+    margin-left: auto;
+    width: 190px;
+    border: 1px solid #cc9e62;
+    padding-top: 6px;padding-bottom: 6px;
+   
+      }
+
+
+    .hm-about-side .promo-box-offer .go-about span {
+    font-family: "Open Sans";
+    font-weight: 600;
+    color:#cc9e62;
+    font-size: 13px;
+    margin-top: 2px;
+    text-transform: uppercase;
+    }
+
+    .hm-about-side .promo-box-offer .go-about .fa {
+    color:#cc9e62;
+    margin-left: 8px;
+    vertical-align: -1px;
+    }
+
+    .about-right-side{
+    padding-top: 35px;
+
+    }
+
+    .about-right-side img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    }
+
+
+    /* glasses and lenses page */
+    
+
+    .gl-le-cover {
+    padding-top: 160px;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #eee;
+    background-color: #1d2a38;
+    background: url(../img/each-service-banner.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-bottom: 1px solid #fafafa;
+    }
+
+    .gl-le-cover.text-head h6 {
+    font-size: 18px;
+    font-family: "Open Sans";
+    text-align: center;
+    color: #1d2a38;
+    font-weight: 400;
+    letter-spacing: 1px;
+    }
+
+    .gl-le-cover .text-head h2 {
+    font-size: 38px;
+    font-family: "Open Sans";
+    text-align: center;
+    color: #1d2a38;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    }
+
+
+    .lenses-option{
+    padding-bottom: 2%;padding-top:35px;
+    padding-left:20px;
+    padding-right:20px;
+    }
+
+    .lenses-option .le-inner h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+
+    .lenses-option .le-inner h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .lenses-option .le-inner p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .le-inner .list-item-ex {
+    display: block;
+    padding-left: 30px;
+    }
+
+    .le-inner .list-item-ex li{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align:left;
+    color: #ffffff;
+    font-family: "Open Sans";
+    margin-bottom: 15px;
+    }
+   
+
+    .lenses-picture-side{
+    padding-top: 20px;
+    }
+
+    .lenses-picture-side img{
+    margin-bottom: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+
+    .lenses-option{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #fafafa;
+      
+    }
+
+    .lenses-option .example-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .lens-desc .inner-desc h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .lens-desc .inner-desc .line-div{
+    width: 45px;
+    display: block;
+    border: 1px solid #ffffff;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .lens-desc .inner-desc h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+   }
+
+    .lens-desc .inner-desc p {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+
+
+    .lens-desc .inner-desc  .btn-go-about{
+    display:block;
+    width: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    background-color:#cc9e62;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #cc9e62;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    white-space: normal !important;
+    word-wrap: break-word !important; 
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+     .lens-desc .inner-desc  .btn-go-about span{
+    font-size: 15px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    }
+
+    
 
     /* -------------------  RESPOSNIVE DESGIN -------------------  */
     
