@@ -224,161 +224,6 @@
     }
 
 
-    /*  3 Box section text */
-    
-    .top-box{
-
-    width: 100%;
-
-    }
-  
-   .process-steps{
-    margin-bottom: 10px;
-    max-width:330px;
-    background-color: #fafafa;
-    margin-right:20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top:-90px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-color: rgb(40, 58, 78, 0.9);
-
-    }
-
-    .process-steps:last-child{
-    margin-right: 0;
-    }
-
-    .process-steps h6 {
-    font-family: 'Open Sans';
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 15px;
-    text-align: center;
-    margin-top:0px;
-    }
-
-    .process-steps p {
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 12px;
-    text-align: center;
-    }
-
-    .process-steps .btn-action{
-    color: #fff;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 11px;
-    text-decoration:none;
-    text-transform: uppercase;
-    border: 1px solid #ffffff;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 140px;
-    margin-top: 15px;
-    }
-
-        /* INDEX PAGE - SECTION HOW IT WORKS */
-    
-    #section-how-it-work{
-    padding-bottom:30px;
-    padding-top:3%;
-    border-bottom: 1px solid #fafafa;
-    
-    }
- 
-    #section-how-it-work .main-title{
-    font-family: "Roboto";
-    font-weight: 400;
-    color: #fff !important;
-    font-size:30;
-    text-align:center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    }
-
-    #section-how-it-work .main-subtitle-2{
-    font-family: "Roboto";
-    font-weight: 300;
-    color: #fafafa;
-    font-size:20px;
-    text-align:center;
-    margin-top: 0;
-    margin-bottom:40px;
-
-    }
-
-    #section-how-it-work .button-go-contact{
-    color: #fff;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 15px;
-    text-decoration:none;
-    text-transform: uppercase;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    margin-top: 40px;
-    background-color: #cc9e62;
-    padding-top: 12px;padding-bottom: 12px;
-    }
-
-
-
-    /* HOW IT WORKS DECRIPTION - TEXT ON LEFT SIDE - IMAGES ON RIGHT SIDE */
-
-    .inner-how-it-work-1 {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    }
-
-    .inner-how-it-work-1 .fea-inner  img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transition: all .2s ease-in-out;
-    }
-
-    .inner-how-it-work-1 .fea-inner  img:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    }
-
-    .inner-how-it-work-1 .fea-inner h2{
-    font-family: "Roboto";
-    font-weight: 600;
-    color: #ffffff !important;
-    font-size:16px;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom:15px;
-    }
-
-    .inner-how-it-work-1 .fea-inner{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;  
-    padding-right: 20px;padding-left: 20px;
-    margin-bottom: 20px;
-    }
-
-    .inner-how-it-work-1 .fea-inner .text-description{
-    font-family: "Roboto";
-    font-weight: 400;
-    color: #fafafa;
-    font-size: 13px;
-    text-align: center;
-    margin-bottom: 0;
-    }
-
-
 
 
 
@@ -460,15 +305,71 @@
  }
 
 
+ .carousel-caption .btn-action-go {
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    color: #fff;
+    background-color: #7ed957;
+    display: block;
+    text-transform: uppercase;
+    float: left;
+    width: auto !important;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 5%;
+}
+
+
     /* ABOUT US SECTION ON HOME PAGE */
-   
+
     #home-about{
     padding-bottom: 3%;
     padding-top: 3%;
     background-color: #1f3042;
     border-top:1px solid #fafafa;
-     border-bottom:1px solid #fafafa;
-   
+    border-bottom:1px solid #fafafa;
+
+
+    }
+
+    #home-about .text-inner h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+
+    #home-about .text-inner .line-div {
+    width: 45px;
+    display: block;
+    border: 1px solid #ffffff;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    #home-about .text-inner h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    #home-about .text-inner {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
     }
 
 
@@ -477,40 +378,31 @@
     padding-right:30px;
     }
 
-    .about-right-side{
+    #home-about .about-right-side{
     width: 100%;
+    padding-top: 0;
     }
 
-    .about-left-side .text-inner .line-div{
-    width: 15%;
+    #home-about .about-right-side img{
     display: block;
-    border: 2px solid #ffffff;
+    margin-right: auto;margin-left: auto;
+    margin-top: 0;
+    border: 3px solid #cc9e62;
     }
 
-    .about-left-side .text-inner h2{
-    font-size: 38px;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: left;
-    color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    }
 
-    .about-left-side .text-inner p{
-    font-size: 15px;
+    .about-left-side p{
+    font-size: 14px;
     font-weight: 400;
     text-align: left;
     color: #ffffff;
-      font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     }
 
-    .about-left-side .text-inner .btn-go-about{
+    .about-left-side .btn-go-about{
     display: inline-block;
-    width: 180px;
-      font-family: 'Open Sans', sans-serif;
+    width: 160px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #fff;
     text-transform: uppercase;
@@ -518,159 +410,473 @@
     padding-top: 8px;
     padding-bottom: 8px;
     border: 1px solid #cc9e62;
-    border-radius: 3px;
+    border-radius:0;
     letter-spacing: 1px;
     margin-top: 30px;
     position: relative;
     white-space: normal !important;
     word-wrap: break-word !important; 
+    display: block;
+    margin-right: auto;margin-left: auto;
+    font-size: 14px;
     }
 
     /* Home page services page */
 
     
     #features{
-    padding-top: 55px;
-    padding-bottom: 50px;
-
+    padding-top: 30px;
+    padding-bottom: 40px;
 
     }
 
     #features .text-area{
-        display: block;
-        width: 100%;
+    display: block;
+    width: 100%;
+    }
+
+    #features .text-area .line-div{
+
     }
 
     #features .text-area .subtitle-1 {
-         font-family: "Open Sans";
-    font-weight: 400;
-    color: #fafafa;
-    font-size: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 25px;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 40px;
-    
+    color: #ffffff;
+    font-family: "Open Sans";
+
     }
 
     #features .text-area .maintitle-2{
-        font-family: "Open Sans";
-    font-weight: 400;
-    color: #fff !important;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
     margin-bottom: 10px;
-    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
 
     }
 
-    .list-fea{
+    #features .text-area .line-div {
+    width: 45px;
     display: block;
-    border-radius: 3px;
-    padding-bottom:0;
-    padding-top: 10px;
-    margin-bottom: 25px;
-    margin-top: 15px;
-    max-width: 100%;
+    border: 1px solid #ffffff;
+    margin-bottom: 5px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    height:185px;
-    z-index: 1;
-        border: 1px solid #cc9e62;
     }
 
-    .list-fea .skew-txt{
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
-    background-color:#cc9e62;
-    position: absolute;
-    width: 80%;
+    #features p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align:center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    }
+
+    #features .ser-list{
     display: block;
-    top:-10%;
-    left:15%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+    width: 70%;
+    padding-left:90px;
+    }
+
+    #features .ser-list li{
+    width: 45%;
+    float: left;
+    display: block;
+    color: #ffffff;
+    }
+
+    .ser-list li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-align:center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    }
+
+    .ser-list li:last-child a{
+    padding-left: 18px;
+    }
+
+    .ser-list li a:hover{
+    text-decoration: underline;
+    }
+
+    .ser-list li a .fa{
+    font-size: 10px;
+    color: #ffffff;
+    margin-right: 10px;
+    vertical-align: 2px;
+    }
+
+    #features  .ser-info{
+    display: block;
+    width: 100%;
+    background-color: #273c52;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 3px;
+    margin-top: 30px;
+    }
+
+    #features  .ser-info h6{
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+    #features  .ser-info h6 a{
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    }
+
+    #features  .ser-info h6 a .fa{
+    margin-right: 7px;
+    margin-left: 12px;
+    }
+
+
+    /* home page our products */
+
+      /* ABOUT US SECTION ON HOME PAGE */
+
+    #home-products{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-color: #1f3042;
+    border-top:1px solid #fafafa;
+    border-bottom:1px solid #fafafa;
 
     }
 
-    .list-fea .skew-txt h3 {
-     font-family: "Open Sans";
+    #home-products .text-pro h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+
+    #home-products .text-pro  .line-div {
+    width: 45px;
+    display: block;
+    border: 1px solid #ffffff;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    #home-products .text-pro  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    #home-products .text-pro  {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    }
+
+
+    #home-products .wear-offer{
+    width: 100%;
+    padding-right:30px;
+    }
+
+    #home-products .wear-side-pic{
+    width: 100%;
+    padding-top: 0;
+    }
+
+    #home-about .wear-side-pic img{
+    display: block;
+    margin-right: auto;margin-left: auto;
+    margin-top: 0;
+    border: 3px solid #cc9e62;
+    }
+
+
+    #home-products .wear-offer p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+
+    .wear-offer  .wear-info-box{
+    display: block;
+    width: 100%;
+    background-color: #273c52;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    border-radius: 3px;
+    margin-top: 30px;
+    float: left;
+    }
+
+    .wear-offer  .wear-info-box h6{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+    .wear-offer  .wear-info-box h6 a{
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    }
+
+    #home-products .offer-list{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+    width: 90%;
+    padding-left:40px;
+    }
+
+    #home-products .offer-list li{
+    width: 47%;
+    float: left;
+    display: block;
+    color: #ffffff;
+    }
+
+    .offer-list li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    text-align:center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    }
+
+    .offer-list li:last-child a{
+    padding-left: 18px;
+    }
+
+    .offer-list li a:hover{
+    text-decoration: underline;
+    }
+
+    .offer-list li a .fa{
+    font-size: 8px !important;
+    color: #ffffff;
+    margin-right: 10px;
+    vertical-align: 3px;
+    }
+
+
+   /* home contact us */
+
+    #contact-us-home{
+    padding-bottom: 7%;
+    padding-top: 3%;
+    }
+
+    #contact-us-home .main-hd{
+        font-size: 24px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom:45px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    display: block;
+    margin-right: auto;margin-left: auto;
+    }
+
+    .contact-box-home .contact-us-form{
+    border: 1px solid #eee;
+    padding-left: 30px;padding-right: 30px;
+    padding-bottom: 30px;padding-top:15px;
+    width: 90%;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    background-color: #1a293a;
+    }
+
+    .contact-box-home .contact-us-form h2{
+    font-size: 18px;
+    font-family: "Open Sans";
+    text-align:center;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    }
+
+    .contact-box-home .contact-us-form  .send-message{
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    margin-top: 25px;
+    background-color: #cc9e62;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    }
+
+    .contact-box-home .contact-us-form  .send-message:hover{
+    background-color: #d69b4e; 
+    }
+
+    .contact-box-home .contact-us-form .contact-form-control{
+    font-size: 13px;
+    color: #ffffff !important;
+    background: #22364c;
+    border: 1px solid #f0f4f6;
+    border-radius: 0;
+    font-family: "Open Sans";
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    width: 100%;
+    }
+
+    .contact-box-home .contact-form-control::placeholder{
+    color: #ffffff;
+    }
+
+    .contact-box-home .contact-form-control:focus {
+    border: 1px solid #76C857 !important;
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
+    }
+
+    .service-info{
+     border: 1px solid #fafafa;
+     padding-right: 25px;padding-left: 25px;
+     padding-top:40px;
+    }
+
+    .service-info .open-hours {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    float: left;
+    }
+
+    .service-info .open-hours  li{
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    }
+
+    .service-info .open-hours li p{
+        font-family: "Open Sans";
     font-weight: 600;
     color: #ffffff;
     text-align: center !important;
-    font-size:15px;
-    display:inline-block;
-    -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-    -o-transform: skew(20deg);
+    font-size: 16px;
+    float: left;
+    background:#223346;
+    width: 140px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    }
+
+    .service-info .open-hours li span{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
     letter-spacing: 1px;
-    padding-top:6px;padding-bottom:6px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     margin-bottom: 0;
-    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #283b50;
     }
 
-    .list-fea p {
+     .service-info .open-hours h3{
+    font-size: 18px;
+    font-family: "Open Sans";
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    }
+
+    .service-info .tx-in h6{
+    font-size: 14px;
+    font-family: "Open Sans";
+    text-align: left;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #253c56;
+    padding-bottom: 6px;
+    margin-top:20px;
+    }
+
+    .service-info .tx-in a{
+    font-size: 17px;
+    font-family: "Open Sans";
+    text-align: left;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-left:20px;
+
+    }
+
+    .service-info .tx-in span{
+    color: #ffffff;
+    margin-left: 7px; 
     font-family: "Open Sans";
     font-weight: 400;
-    color: #ffffff;
-    font-size: 12px;
-    margin-top:18px;
-    text-align: center;
     }
 
-     .list-fea  .go-about {
-    display: block;
-    float: right;
-    background-color: transparent;
-    margin-right: 15px;
-    margin-top:10px;
-    text-decoration: none;
-    position: absolute;
-    right: 5px;
-    bottom:8px;
-   }
-
-
-   .list-fea .go-about span {
-     font-family: "Open Sans";
-    font-weight: 400;
-    font-style: italic;
-    color:#cc9e62;
-    font-size: 15px;
-    margin-top: 2px;
-  }
-
-    .list-fea .go-about .fa {
-    color:#cc9e62;
-    margin-left: 8px;
-    vertical-align: -2px;
+    .service-info .tx-in h6 .fa{
+    margin-right: 10px;
+    font-style: 17px;
     }
-
-    .go-about:hover{
-    cursor: pointer;
-    color: #fff !important;
-    }
-
-     
-    #features .button-go-ser {
-    color: #fff;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 17px;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    margin-top: 40px;
-    background-color: #cc9e62;
-    padding-top: 12px;
-    padding-bottom: 12px;
-   }
 
 
    /* Home page zoc doc doctor section */
@@ -685,80 +891,91 @@
 
     }
 
-
     #home-zodoc .right-zo-doc{
     width: 100%;
     padding-left:30px;
-    }
-
-    #home-zodoc .right-zo-doc .text-inner .line-div{
-    width: 15%;
     display: block;
-    border: 2px solid #ffffff;
+    float: left;
+    padding-top: 25px;
     }
 
-    #home-zodoc .right-zo-doc .text-inner h2{
-    font-size: 30px;
-    font-weight: 400;
+    .right-zo-doc .banner-in{
+            display: block;
+    width: 100%;
+    background-color: #273c52;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-radius: 3px;
     margin-top: 30px;
-    margin-bottom: 5px;
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
     }
 
-     #home-zodoc .right-zo-doc .text-inner h3{
-    font-size: 26px;
+    .right-zo-doc .banner-in h6 {
+         font-size: 17px;
     font-weight: 400;
-    margin-top: 5px;
-    margin-bottom: 30px;
-    text-align: center;
     color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    margin-bottom: 0;
+      margin-top: 10px;
+    }
+
+    .right-zo-doc .banner-in h6 a{
+       font-size: 17px;
+    font-weight: 700;
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;  
 
     }
 
-    .right-zo-doc .text-inner p{
-    font-size: 15px;
+    #home-zodoc .text-inner{
+    width: 100%;
+    display: block;
+    }
+
+    #home-zodoc .text-inner h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    #home-zodoc .text-inner h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    #home-zodoc .text-inner .line-div{
+    width: 45px;
+    display: block;
+    border: 1px solid #ffffff;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .right-zo-doc p{
+    font-size: 14px;
     font-weight: 400;
     text-align: left;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     }
 
-    .right-zo-doc .text-inner .btn-go-about{
-    display:block;
-    width: 230px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    text-transform: uppercase;
-    background-color:#cc9e62;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    border: 1px solid #cc9e62;
-    border-radius: 3px;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    position: relative;
-    white-space: normal !important;
-    word-wrap: break-word !important; 
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-
-    .right-zo-doc .text-inner .btn-go-about span{
-        font-size: 15px;
-        font-weight: 500;
-        font-family: "Open Sans";
-    }
 
     .zo-left-pic img{
       display: block;
       width: 100%;
-      padding-top: 40px;
+      padding-top: 10px;
     }
 
 
@@ -914,214 +1131,7 @@
 
     }
 
-    /* section offers */
-
-   
-    .picture-side-1{
-
-             position: relative;
-             margin-bottom: 40px;
-    }
-
-    .picture-side-1 .img-fluid{
-
-    display: block;
-    width: 100%;
-    }
-
-    .picture-side-1 .text-in{
-    padding-left: 40px;
-    padding-right: 30px;
-    display: block;
-    width: 100%;
-    margin-bottom: 45px;
-    padding-bottom: 25px;
-
-    }
-
-    .picture-side-1 .text-in h2 {
-    font-size: 28px;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-bottom:20px;
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    }
-
-    .picture-side-1 .text-in p{
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-
-    }
-
-    .picture-side-1 .text-in .btn-action{
-       color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 162px;
-    margin-top:5px;
-    background-color: #cc9e62;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    position: absolute;
-    bottom: 5px;
-    left: 35%;
-
-
-    }
-
-    .picture-side-1 .text-in .btn-action span{
-    font-family: "Open Sans";
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 14px;
-    margin-top: 2px;
-    }
-
-    .picture-side-1 .text-in .btn-action .fa {
-    color: #ffffff;
-    margin-left: 8px;
-    vertical-align: -1px;
-    }
-
-    .picture-side-1 .text-in .list-2{
-    list-style: none;
-    padding-left:15px;
-    width: 100%;
-    display: block;
-    float: left;
-    }
-
-    .picture-side-1 .text-in .list-2 li{
-    color: #fafafa;
-    font-family: "Open Sans";
-    font-weight: 500;
-    font-size: 14px;
-    float: left;
-    display: block;
-    width: 30%;
-    }
-
-    .picture-side-1 .text-in .list-2 li .fa{
-    display: block;
-    font-size: 7px;
-    margin-right:12px;
-    float: left;
-    margin-top: 7px;
-    }
-
-
-
-    
-    /* right side*/
-
-    .picture-side-2{
-    border-left: 4px solid #cc9e62;;
-    position: relative;
-    margin-bottom: 40px;
-    }
-
-    .picture-side-2 .img-fluid{
-    position: relative;
-    display: block;
-    width: 100%;
-    }
-
-    .picture-side-2 .text-in{
-    padding-left: 40px;
-    padding-right: 30px;
-    display: block;
-    width: 100%;
-    margin-bottom: 45px;
-    padding-bottom: 25px;
-    }
-
-    .picture-side-2 .text-in h2 {
-    font-size: 28px;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-bottom:20px;
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    }
-
-    .picture-side-2 .text-in p{
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-
-    }
-
-    .picture-side-2 .text-in .btn-action{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 162px;
-    margin-top:5px;
-    background-color: #cc9e62;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    position: absolute;
-    bottom: 5px;
-    left: 35%;
-
-    }
-
-    .picture-side-2 .text-in .btn-action span{
-    font-family: "Open Sans";
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 14px;
-    margin-top: 2px;
-    }
-
-    .picture-side-2 .text-in .btn-action .fa {
-    color: #ffffff;
-    margin-left: 8px;
-    vertical-align: -1px;
-    }
-
-    .picture-side-2 .text-in .list-1{
-    list-style: none;
-    padding-left:15px;
-    width: 100%;
-    display: block;
-    float: left;
-
-    }
-
-    .text-in .list-1 li{
-    color: #fafafa;
-    font-family: "Open Sans";
-    font-weight: 500;
-    font-size: 14px;
-    float: left;
-    display: block;
-    width: 30%;
-    }
-
-    .text-in .list-1 li .fa{
-    display: block;
-    font-size: 7px;
-    margin-right:12px;
-    float: left;
-    margin-top: 7px;
-    }
+  
 
 
 
@@ -2171,129 +2181,123 @@
     /* ---------- About us ----------- */
 
    .main-about{
-    padding-top:160px;
+    padding-top:130px;
     padding-bottom:20px;
+        background-color: #213040;
    }
 
-    .sidebar-doctor{
-    border:1px solid #283c50;
-    display: block;
-    background-color: #1f3042;
-    }
-
-    .doc-info{
-    display: block;
-    width: 100%;
-    padding-left:20px;padding-right: 20px;
-    list-style: none;
-    }
-
-    .doc-info li{
-    display: block;
-    width: 100%;
-    float: left;
-    list-style: none;
-    margin-bottom: 15px;
-    }
-
-    .doc-info li h2{
-    font-family: 'Open Sans';
-    font-weight: 700;
-    color: #cc9e62;
-    font-size: 23px;
-    margin-bottom:15px;
-    margin-top:10px;
-    text-align:center;
-    text-transform: uppercase;
-    }
-
-     .doc-info li h3{
-    font-family: 'Open Sans';
-    font-weight: 400;
-    color: #cc9e62;
-    font-size: 14px;
-    text-align: left;
-    margin-bottom: 3px;
-    border-bottom: 1px solid #16273a;
-    padding-bottom: 5px;
-    }
-
-    .doc-info li p{
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #fafafa;
-    font-size: 14px;
-    text-align:left;
-    margin-bottom:0;
-    }
-
-
-    .doc-info li img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-   .doc-info li .button-go-contact {
-    color: #fff;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    margin-top: 40px;
-    background-color: #cc9e62;
-    padding-top: 9px;
-    padding-bottom: 9px;
-  }
 
     /*  right side about doctor */
     
     .about-doctor{
     padding-top: 15px;
     padding-left: 35px;
+    padding-right: 35px;
     }
 
 
-    .about-doctor .text-inner .line-div{
-    width: 45px;
+    .about-doctor .text-inner .doc-pic{
     display: block;
-    border: 1px solid #ffffff;
-    margin-bottom: 5px;
-    display: block;
-    margin-left: auto;margin-right: auto;
+    float: right;
+    margin-left: 30px;
     }
 
+     .about-doctor .imp-banner-about{
+    display: block;
+    width: 100%;
+    background-color: #273c52;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    }
+
+      .about-doctor .imp-banner-about h4{
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+     .about-doctor .imp-banner-about h4 a{
+    font-size: 17px;
+    font-weight: 700;
+    color: #cc9e62; 
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    }
+
+      .about-doctor .imp-banner-about h4 a .fa{
+    margin-right: 7px;
+    margin-left: 12px;
+    }
+
+  
     .about-doctor .text-inner h4{
     font-size: 22px;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom:5px;
     text-align: center;
     color: #ffffff;
     font-family:"Open Sans";
+
     }
 
 
     .about-doctor .text-inner h2{
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 700;
     margin-top: 5px;
     margin-bottom: 25px;
     text-align: center;
     color: #ffffff;
-        font-family:"Open Sans";
+    font-family:"Open Sans";
     }
 
     .about-doctor .text-inner p{
     font-size: 14px;
     font-weight: 500;
-    text-align:center;
+    text-align:left;
     color: #ffffff;
-       font-family:"Open Sans";
+    font-family:"Open Sans";
+    }
+
+
+    .about-doctor .text-inner .txt-ex-list{
+    display: block;
+    }
+
+    .about-doctor .text-inner .txt-ex-list li {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans";  
+    margin-bottom: 6px; 
+    }
+
+    .about-doctor .text-inner .txt-ex-list li p span {
+    font-size:15px;
+    font-weight:700;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans";
+    margin-bottom: 0; 
+
+    }
+
+    .about-doctor .text-inner .txt-ex-list li  p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans"; 
+    margin-bottom: 2px;
+
     }
 
     .tz-gallery {
@@ -2471,8 +2475,8 @@
 
 
     .banner-services-cover {
-    padding-top: 160px;
-    padding-bottom: 4%;
+  padding-top: 144px;
+    padding-bottom: 18px;
     border-bottom: 1px solid #eee;
     background-color: #1d2a38;
     background: url(../img/each-service-banner.jpg);
@@ -2483,28 +2487,36 @@
     }
 
     .banner-services-cover  .services-text-head h6 {
-    font-size: 18px;
+      font-size: 18px;
     font-family: "Open Sans";
     text-align: center;
-    color: #ffffff;
+    color: #00234b;
     font-weight: 400;
     letter-spacing: 1px;
+
     }
 
     .banner-services-cover  .services-text-head h2 {
-    font-size: 42px;
+        font-size: 42px;
     font-family: "Open Sans";
     text-align: center;
-    color: #ffffff;
+    color: #1d2a38;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-top: 10px;
+
     }
 
     .main-services-text{
      width: 100%;
      display: block;
+    }
+
+    .main-services-text .in-text .serv-img{
+     display: block;
+     float: right;
+     margin-left: 30px;
     }
 
     .main-services-text .in-text{
@@ -2529,14 +2541,57 @@
     font-family: "Open Sans";
     }
 
+     .main-services-text .in-text p a{
+        font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans"; 
+     }
+
     .main-services-text .in-text h5{
-    font-size:18px;
-    font-weight:400;
+    font-size:16px;
+    font-weight:700;
     margin-top: 5px;
     margin-bottom:10px;
     text-align: left;
     color: #ffffff;
     font-family: "Open Sans";
+    }
+
+
+    .main-services-text .important-txt-banner{
+    display: block;
+    width: 100%;
+    background-color: #273c52;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    }
+
+    .main-services-text .important-txt-banner h4{
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+    .main-services-text .important-txt-banner h4 a{
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    }
+
+    .main-services-text .important-txt-banner h4 a .fa{
+    margin-right: 7px;
+    margin-left: 12px;
     }
 
     .in-text .list-ex{
@@ -2548,7 +2603,28 @@
     font-weight: 500;
     text-align: left;
     color: #ffffff;
-    font-family: "Open Sans";   
+    font-family: "Open Sans";  
+    margin-bottom: 6px; 
+    }
+
+    .in-text .list-ex li p span {
+       font-size:15px;
+    font-weight:700;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans";
+    margin-bottom: 0; 
+    
+    }
+
+    .in-text .list-ex li  p{
+      font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans"; 
+    margin-bottom: 2px;
+   
     }
 
     .services-right-img{
@@ -2568,8 +2644,131 @@
     .wrapper-services{
     padding-bottom: 40px;
     padding-top: 30px;
+        background-color: #213040;
     }
 
+    /* top text services on service page*/
+   
+
+    .wrapper-services .first-service-section {
+     border-bottom: 1px solid #1a2735;
+    padding-bottom: 20px;
+    }
+   
+
+    .wrapper-services .first-service-section h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom:20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .wrapper-services .first-service-section p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .wrapper-services .first-service-section p a{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    text-decoration: none;
+    }
+
+    .wrapper-services .first-service-section p a:hover{
+    text-decoration: underline;
+    }
+
+
+
+    /* Inside text fro service page */
+
+    .inside-service-tx-2 {
+    border-bottom: 1px solid #1a2735;
+    padding-bottom: 20px;
+    padding-left: 30px;padding-right: 30px;
+    padding-top: 20px;
+    }
+
+
+    .inside-service-tx-2 h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom:20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .inside-service-tx-2 p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align:left;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .inside-service-tx-2 p a{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    text-decoration: none;
+    }
+
+    .inside-service-tx-2 p a:hover{
+    text-decoration: underline;
+    }
+
+    .inside-service-tx-2  ul{
+        color: #ffffff;
+        padding-left: 70px;
+    }
+
+     .inside-service-tx-2  ul li h6{
+       font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans";
+    text-decoration: none;
+    margin-bottom: 2px;
+     }
+
+    .inside-service-tx-2 .imp-txt{
+        font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    text-decoration: none;  
+    }
+
+    .inside-service-tx-2 .imp-txt a{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color:#cc9e62;
+    font-family: "Open Sans";
+    text-decoration: none;  
+    }
+
+    .inside-service-tx-2 .imp-txt a:hover{
+        text-decoration: underline;
+    }
+
+    /* Importatn banner*/
+     
     /* sub text services*/
 
     .main-services-text-2 .in-text-2{
@@ -2623,7 +2822,7 @@
     width: 100%;
     background: #24384e;
     padding-left: 0;
-    margin-top: 45px;
+    margin-top: 25px;
     float: left;
     }
 
@@ -2631,38 +2830,6 @@
     display: block;
     width: 100%;
     float: left;
-    }
-
-    .choose-us li .title{
-     font-size: 18px;
-    font-weight: 600;
-    text-align:center;
-    color: #ffffff;
-    font-family: "Open Sans";   
-    text-transform: uppercase;
-    padding-top: 12px;padding-bottom:12px;
-    margin-bottom: 20px;
-     background-color: #cc9e62;
-    }
-
-    .choose-us li p{
-    font-size: 13px;
-    font-weight: 500;
-    text-align:center;
-    color: #ffffff;
-    font-family: "Open Sans";
-    padding-left: 7px;padding-right: 7px;   
-    margin-bottom: 7px; 
-    }
-
-    .choose-us li h6{
-    font-size: 14px;
-    font-weight: 600;
-    text-align:center;
-    color: #ffffff;
-    font-family: "Open Sans";
-    margin-bottom: 12px;
-  
     }
 
     .choose-us li .button-go-contact {
@@ -2676,7 +2843,7 @@
     margin-left: auto;
     margin-right: auto;
     width:100%;
-    margin-top: 35px;
+    margin-top:0;
       background-color: #fff04b;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -2718,64 +2885,18 @@
     vertical-align: -2px;
     }
 
-    /* whye us*/
-
-    .sutphin-fea{
-       display: block;
-    padding-left: 0;
-    width: 100%;
-    margin-top: 30px;
-    border-top: 1px solid #283a4e;
-    border-bottom: 1px solid #283a4e;
-    float: left;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    }
-
-    .sutphin-fea li{
-    list-style-type: none;
-    display: block;
-    float: left;
-    width: 23%;
-    margin-right: 12px;
-    }
-
-     .sutphin-fea li:last-child{
-        margin-right: 0;
-     }
-
-    .sutphin-fea li img{
-    display: block;
-    margin-right: auto;
-    margin-left:auto;
-    width: 55%;
-    }
-
-    .sutphin-fea li h6{
-    font-family: "Open Sans";
-    font-weight:400;
-    color: #ffffff;
-    font-size: 12px;
-    text-align: center !important;
-    margin-top: 10px;
-    }
-
-   .sutphin-fea h3 {
-    font-family: "Open Sans";
-    font-weight:400;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center !important;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    }
+   
 
 
     /*  -------------   Main OUR SERVICES PAGE ----------- */
     
-      .banner-main-ser {
-    padding-top: 160px;
-    padding-bottom: 4%;
+    .top-1{
+            background-color: #213040;
+    }
+     
+     .banner-main-ser {
+       padding-top: 144px;
+    padding-bottom: 18px;
     border-bottom: 1px solid #eee;
     background-color: #1d2a38;
     background: url(../img/each-service-banner.jpg);
@@ -2806,8 +2927,10 @@
     }
 
     .top-service-tx{
-        padding-top: 40px;
-        display: block;
+    padding-top: 40px;
+    display: block;
+    float: left;
+    padding-left: 30px;
     }
 
     .top-service-tx .text-inside h2{
@@ -2824,7 +2947,7 @@
    .top-service-tx .text-inside p {
     font-size: 14px;
     font-weight: 500;
-    text-align:center;
+    text-align:left;
     color: #ffffff;
     font-family: "Open Sans";
     }
@@ -2834,16 +2957,16 @@
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 10px;
-    text-align:center;
+    text-align:left;
     color: #ffffff;
     font-family: "Open Sans";
     }
 
     .top-service-tx .text-inside .ex-list{
-        display: block;
-        float: left;
-        width: 100%;
-        padding-left:50px;
+    display: block;
+    float: left;
+    width: 100%;
+    padding-left:50px;
     }
 
      .top-service-tx .text-inside .ex-list li{
@@ -2851,15 +2974,69 @@
     font-family: "Open Sans";
     font-size: 15px;
     font-size: 15px;
-    width: 45%;
+    width: 100%;
     float: left;
     font-weight: 700;
      }
 
-    .image-on-right img{
+     .top-service-tx .text-inside .ex-list li h6{
+       font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Open Sans"; 
+     }
+
+
+    .top-service-tx .text-inside .ex-list li h6 a{
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Open Sans"; 
+    text-transform: uppercase;
+    margin-right: 10px;
+    }
+
+
+    .ex-banner-1{
+    display: block;
+    width: 100%;
+    background-color: #273c52;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 3px;
+    margin-top: 30px;
+    }
+
+    .ex-banner-1 h4{
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+    .ex-banner-1 h4 a{
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    }
+
+    .ex-banner-1 h4 a .fa{
+    margin-right: 7px;
+    margin-left: 12px;
+    }
+
+
+
+    .top-1 .image-on-right img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 35px;
     }
 
    .image-on-right {
@@ -2869,112 +3046,211 @@
 
    /* ALL REPAIR LIST LINKS */
 
-    #service-list{
+    .service-list{
     display: block;
     width: 100%;
-    padding-top:3%;padding-bottom:3%;
-    border-top: 1px solid #fafafa;
-    border-bottom: 1px solid #fafafa;
-
+    padding-top:3%;
+        background-color: #213040;
     }
 
-    #service-list .text-title{
-    display: block;
-    width: 100%;
-    margin-bottom:15px;
-    }
-    
-    #service-list .text-title h2{
-    font-family: "Roboto";
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 33px;
+    .service-list .tx-inner-sr h4 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 15px;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom:10px;
-
-    }
-    
-    #service-list  .text-title h4{
-    
-    font-family: "Roboto";
-    font-weight:400;
     color: #ffffff;
-    font-size: 18px;
-    text-transform:none;
-    text-align: center;
-    padding-bottom:5px;
-    letter-spacing: 1px;
-    margin-top: 10px;
+    font-family: "Open Sans";
     }
 
 
-    
-    #service-list .text-title .line-border-3{
-    width: 15%;
+    .service-list .tx-inner-sr .line-div {
+    width: 45px;
     display: block;
-    border: 1px solid #073664;
-    margin-left: auto;margin-right: auto;
-    }
-
-    
-    #service-list .box-service{
-    margin-bottom:20px;
-    max-width: 230px;
-    margin-right: 15px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 15px;
-    padding-bottom: 10px;
-     /* background: url(../img/blue-lines.png); */
-     /* background-repeat: no-repeat; */
-     transition: all .2s ease-in-out;
-
-    }
-
-    .box-service:last-child{
-        margin-right: 0;
-    }
-
-    #service-list .box-service img{
+    border: 1px solid #ffffff;
+    margin-bottom: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     }
 
-    #service-list .box-service  h5{
+
+    .service-list .ex-banner-2{
+    display: block;
+    width: 100%;
+    float: left;
+    background-color: #273c52;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 3px;
+    margin-top: 30px;
+    }
+
+     .service-list .ex-banner-2 h4{
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+     .service-list .ex-banner-2 h4 a{
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    }
+
+     .service-list .ex-banner-2 h4 a .fa{
+    margin-right: 7px;
+    margin-left: 12px;
+    }
+
+
+    .service-list .tx-inner-sr h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+   .service-list .tx-inner-sr {
+    width: 100%;
+    display: block;
+    margin-bottom:10px;
+    }
+
+    .service-list .tx-inner-sr .main-ser-list{
+    display: block;
+    float: left;
+    width: 100%;
+    padding-left:50px;
+    margin-top: 30px;
+    }
+
+    .main-ser-list li{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-size: 15px;
+    width: 100%;
+    float: left;
+    font-weight: 700;
+    margin-bottom: 10px;
+    }
+
+    .main-ser-list li h6{
+    font-size: 15px;
     font-weight: 500;
     color: #ffffff;
-    font-family: "Roboto";
-    text-align: center;
-    margin-top:5px;
-    font-size:15px;
-    width: 100%;
-    background:#cc9e62;
+    font-family: "Open Sans"; 
+    }
+
+
+    .main-ser-list li h6 a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Open Sans"; 
     text-transform: uppercase;
-    padding-top: 10px;padding-bottom: 10px;
+    margin-right: 10px;
     }
 
-    #service-list .box-service a{
-    text-decoration: none;
+
+      /* whye us*/
+
+    .sutphin-fea{
+    display: block;
+    padding-left: 0;
+    width: 100%;
+    margin-top: 30px;
+    float: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
     }
 
-    .box-service a:hover >h5{
-    color: #073664;
-    background: #000;
-    } 
-
-    .box-service a:hover img{
-    transform: scale(1.01) !important;
+    .sutphin-fea li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 23%;
+    margin-right: 12px;
     }
-    
+
+    .sutphin-fea li:last-child{
+    margin-right: 0;
+    }
+
+    .sutphin-fea li img{
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+
+    }
+
+    .sutphin-fea li h6{
+    font-family: "Open Sans";
+    font-weight:400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center !important;
+    margin-top: 10px;
+    }
+
+    .sutphin-fea li  .line {
+    width:30px;
+    display: block;
+    border: 1px solid #ffffff;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+    .sutphin-fea li .title{
+      font-family: "Open Sans";
+    font-weight:600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center !important;
+    margin-top: 10px;   
+    }
+
+    .sutphin-fea h3 {
+    font-family: "Open Sans";
+    font-weight:400;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center !important;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    }
+
+    .sutphin-fea h2{
+            font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+
+
+   
      /* insurance logo section */
 
 
     .insurance-section{
-    padding-top: 40px;
-    padding-bottom:40px;
+    padding-top: 30px;
+    padding-bottom:30px;
     width: 100%;
     display: block;
     background-color: #1f3042;
@@ -2987,13 +3263,12 @@
 
     .insurance-section .text-box-software h2{
     font-family: "Open Sans";
-    font-weight: 400;
+    font-weight: 600;
     color: #fff !important;
     font-size: 28px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-transform: uppercase;
 
     }
 
@@ -3059,40 +3334,19 @@
 
 
     /*  EYEWEAR GLALERY PAGE  */
-
-
-    .banner-eyewear-cover {
+    
+    .page-eyewear{
     padding-top: 160px;
-    padding-bottom: 2%;
-    border-bottom: 1px solid #eee;
-    background-color: #1d2a38;
-   /* background: url(../img/contact-page-banner.jpg);*/
+
+
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
     width: 100%;
-    border-bottom: 1px solid #fafafa;
+    background-color: #213040;
     }
 
-    .banner-eyewear-cover .eyewear-text-head h6 {
-    font-size: 18px;
-    font-family: "Open Sans";
-    text-align: center;
-    color: #ffffff;
-    font-weight: 400;
-    letter-spacing: 1px;
-    }
-
-     .banner-eyewear-cover .eyewear-text-head h2 {
-    font-size: 38px;
-    font-family: "Open Sans";
-    text-align: center;
-    color: #ffffff;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-top: 10px;
-    }
+   
 
     .banner-eyewear-cover .eyewear-text-head{
         margin-bottom: 25px;
@@ -3103,11 +3357,11 @@
     }
 
     .wear-brand-sc{
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-bottom:10px;
     width: 100%;
     display: block;
-    background-color: #1f3042;
+    margin-left: auto;
+    margin-right: auto;
     }
 
     .wear-brand-sc .text-box-sc{
@@ -3123,7 +3377,7 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-transform: uppercase;
+  
 
     }
 
@@ -3156,7 +3410,7 @@
     }
 
      .eyewear-brands-list li:hover{
-         background-color: #23364a;
+         background-color: #283f56;
      }
 
     .eyewear-brands-list li:last-child{
@@ -3166,6 +3420,126 @@
     .eyewear-brands-list li img{
     margin-right: auto;margin-left: auto;
     display: block;
+    width: 60%;
+    }
+
+    /* eyevewr serv text*/
+    .eye-top-text{
+    width: 100%;
+    display: block;
+    }
+
+    .eye-top-text .wr-text .serv-wr{
+    display: block;
+    float: right;
+    margin-left: 30px;
+    }
+
+    .eye-top-text .wr-text{
+    padding-left: 20px;
+    }
+
+    .eye-top-text .wr-text h2{
+    font-size: 30px;
+    font-weight:700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .eye-top-text .wr-text p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .eye-top-text .wr-text p a{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans"; 
+    }
+
+    .eye-top-text .wr-text h5{
+    font-size:16px;
+    font-weight:700;
+    margin-top: 5px;
+    margin-bottom:10px;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans";
+    }
+
+    .wr-text .list-ex-tx{
+    display: block;
+    }
+
+    .wr-text .list-ex-tx li {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans";  
+    margin-bottom: 6px; 
+    }
+
+    .wr-text .list-ex-tx li p span {
+    font-size:15px;
+    font-weight:700;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans";
+    margin-bottom: 0; 
+
+    }
+
+    .wr-text .list-ex-tx li  p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Open Sans"; 
+    margin-bottom: 2px;
+
+    }
+
+    .eye-top-text .eyewear-txt-banner{
+    display: block;
+    width: 100%;
+    background-color: #273c52;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    }
+
+    .eye-top-text .eyewear-txt-banner h4{
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+    .eye-top-text .eyewear-txt-banner h4 a{
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    }
+
+    .eye-top-text .eyewear-txt-banner h4 a .fa{
+    margin-right: 7px;
+    margin-left: 12px;
     }
 
 
@@ -3234,63 +3608,43 @@
     word-wrap: break-word !important; 
     }
 
-    .hm-about-side .promo-box-offer{
-    padding-top:15px;padding-bottom: 15px;
-    width: 100%;
-    background-color:#283b50;
-    float: left;
-    padding-left: 10px;padding-right: 10px;
-    }
 
-    .hm-about-side .promo-box-offer h3{
-    font-size: 22px;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-bottom:10px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";  
-    text-transform: uppercase;
-    }
 
-    .hm-about-side .promo-box-offer p{
-    font-size: 13px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";  
-    margin-bottom: 3px;
-    }
-
-    .hm-about-side .promo-box-offer  .go-about {
+   .promo-box-offer{
     display: block;
-    background-color: transparent;
-    margin-right:auto;
-    margin-top:20px;
-    text-decoration: none;
-    margin-left: auto;
-    width: 190px;
-    border: 1px solid #cc9e62;
-    padding-top: 6px;padding-bottom: 6px;
-   
-      }
-
-
-    .hm-about-side .promo-box-offer .go-about span {
-    font-family: "Open Sans";
-    font-weight: 600;
-    color:#cc9e62;
-    font-size: 13px;
-    margin-top: 2px;
-    text-transform: uppercase;
+    width: 100%;
+    background-color: #273c52;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 20px;
     }
 
-    .hm-about-side .promo-box-offer .go-about .fa {
-    color:#cc9e62;
-    margin-left: 8px;
-    vertical-align: -1px;
+    .promo-box-offer h4{
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    margin-bottom: 0;
     }
 
+    .promo-box-offer h4 a{
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    }
+
+    .promo-box-offer h4 a .fa{
+    margin-right: 7px;
+    margin-left: 12px;
+    }
+
+  
     .about-right-side{
     padding-top: 35px;
 
