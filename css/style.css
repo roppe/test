@@ -10,7 +10,7 @@
 
 
     body{
-        background-color: #1d2a38;
+        
     }
 
 	.navbar-toggler .navbar-toggler-icon .fa{
@@ -24,24 +24,24 @@
     display: block;
     float: left;
     width:295px !important;height:88px;
-    background:url(../img/sutphin-logo.png) 0 0 no-repeat;
+    background:url(../img/logo-new-sutphin-v2.png) 0 0 no-repeat;
     margin-right: 0 !important;
     margin-top: 10px;
 
     }
 
 	.main-navigation{
-	background-color: #1d2a38;
+	background-color: #fff;
 	display: block;
 	padding-left: 0;padding-right: 0;
 	padding-top: 0;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #eee;
 	}
 
 	.main-navigation .nav-list .nav-link{
 	font-family:"Open Sans";
-	font-weight:400;
-	 color: #ffffff;
+	font-weight:600;
+	 color: #0c1f44;
 	text-transform:uppercase;
 	letter-spacing: 1px;
 	font-size: 14px;
@@ -57,7 +57,7 @@
     padding-top: 6px;
     padding-bottom:6px;
     border: 1px solid #039be5;
-    color: #ffffff;
+    color: #0c1f44;
     border-radius:2px;
     }
 
@@ -77,7 +77,7 @@
     .nav-list .dropdown{
     font-family:"Open Sans";
     font-weight:400;
-    color: #ffffff;
+    color: #0c1f44;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 14px;
@@ -96,13 +96,13 @@
 
 
     .nav-list .dropdown a{
-    color: #ffffff;
+    color: #0c1f44;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 14px;
     text-align: center;
     font-family:"Open Sans";
-    font-weight:400;
+    font-weight:600;
     }
     .nav-list .dropdown a:hover{
     text-decoration: none;
@@ -121,21 +121,21 @@
     width:270px;
     padding-bottom:0;
       padding-top: 0;
-      color: #ffffff;
+      color: #0c1f44;
     }
 
     .nav-list .dropdown .nav-dropdown li{
     padding-top:10px;padding-bottom:10px;
     display: inline !important;
     float: left;
-    border: 1px solid #cdcdd3;
+    border: 1px solid #fafafa;
     width:100%;
-    background-color: #1d2a38;
+    background-color: #fafafa;
     border-top:none;
     }
 
     .nav-list .dropdown .nav-dropdown li:nth-child(2n){
-        background-color: #1f3042;
+        background-color: #f7f2f2;
     }
 
 
@@ -156,7 +156,7 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	color: #ffffff;
+	color: #0c1f44;
 	 font-family: 'Archivo Narrow', sans-serif;
     font-weight: 500;
     border: 0;
@@ -185,8 +185,8 @@
 
     .nav-list .dropdown .nav-dropdown a p{
     font-family:"Open Sans";
-    font-weight: 400;
-    color: #ffffff;
+    font-weight: 600;
+    color: #0c1f44;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 13px;
@@ -203,11 +203,11 @@
     }
 
     .dropdown .nav-dropdown li a>p:hover{
-    color:#fafafa;
+    color:#0c1f44;;
     }
 
     .nav-list .dropdown .nav-dropdown li:hover{
-    background: #cc9e62;
+     /*background: #0c1f44;*/
     }
 
     .nav-list .dropdown .nav-dropdown .nav-title a img {
@@ -268,8 +268,8 @@
     margin: 0;
     padding: 0;
      font-family:"Open Sans";
-    font-weight:500;
-    font-size:32px;
+    font-weight:700;
+    font-size:34px;
     letter-spacing: 2px;
     color:#00234b;
     }
@@ -277,10 +277,10 @@
 
     .carousel-caption p{
     font-family:"Open Sans";
-    font-weight: 500;
+    font-weight: 600;
     color: #00234b;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 20px;
     margin-bottom: 10px;
     }
@@ -320,106 +320,41 @@
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 5%;
-}
+} 
 
 
-    /* ABOUT US SECTION ON HOME PAGE */
-
-    #home-about{
-    padding-bottom: 3%;
-    padding-top: 3%;
-    background-color: #1f3042;
-    border-top:1px solid #fafafa;
-    border-bottom:1px solid #fafafa;
-
-
-    }
-
-    #home-about .text-inner h4 {
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 10px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";
-    }
-
-
-    #home-about .text-inner .line-div {
-    width: 45px;
-    display: block;
-    border: 1px solid #ffffff;
-    margin-bottom: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-
-    #home-about .text-inner h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 25px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";
-    }
-
-    #home-about .text-inner {
+  .top-box-btn{
     width: 100%;
     display: block;
-    margin-bottom: 30px;
-    }
+    background-color: #252525;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-
-    .about-left-side{
-    width: 100%;
-    padding-right:30px;
-    }
-
-    #home-about .about-right-side{
-    width: 100%;
-    padding-top: 0;
-    }
-
-    #home-about .about-right-side img{
-    display: block;
-    margin-right: auto;margin-left: auto;
-    margin-top: 0;
-    border: 3px solid #cc9e62;
-    }
-
-
-    .about-left-side p{
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    }
-
-    .about-left-side .btn-go-about{
-    display: inline-block;
-    width: 160px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+  .top-box-btn .btn-location{
+   
+    font-family: "Roboto Condensed";
+    font-weight: 500;
     color: #fff;
-    text-transform: uppercase;
-    background-color:#cc9e62;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: 1px solid #cc9e62;
-    border-radius:0;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    position: relative;
-    white-space: normal !important;
-    word-wrap: break-word !important; 
+    background-color:transparent;
     display: block;
-    margin-right: auto;margin-left: auto;
-    font-size: 14px;
-    }
+    text-transform: uppercase;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:230px;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #ffffff;
+
+  }
+
+
+
+  
 
     /* Home page services page */
 
@@ -430,274 +365,112 @@
 
     }
 
-    #features .text-area{
-    display: block;
-    width: 100%;
-    }
-
-    #features .text-area .line-div{
-
-    }
-
-    #features .text-area .subtitle-1 {
-    font-size: 30px;
+    #features .subtitle-1 {
+    font-size: 36px;
     font-weight: 700;
     margin-top: 5px;
-    margin-bottom: 25px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";
-
-    }
-
-    #features .text-area .maintitle-2{
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 10px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";
-
-    }
-
-    #features .text-area .line-div {
-    width: 45px;
-    display: block;
-    border: 1px solid #ffffff;
     margin-bottom: 5px;
+    text-align: center;
+    color: #0c1f44;
+    font-family: "Open Sans";   
     display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+
     }
 
-    #features p{
-    font-size: 14px;
-    font-weight: 400;
-    text-align:center;
-    color: #ffffff;
+    #features .text-area{
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+
+    #features .text-area p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align:left;
+    color: #0c1f44;
     font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 10px;
     }
 
-    #features .ser-list{
+    #features .text-area p a{
+    font-size: 16px;
+    font-weight: 700;
+    text-align:left;
+      color: #1f386b;
+    font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 10px;
+    }
+
+    #features .text-area h4{
+    font-size: 28px;
+    font-weight: 700;
+    text-align:left;
+    font-family: 'Open Sans', sans-serif;   
+    color: #0c1f44;
+    margin-top: 20px;
+    }
+
+
+     #features .text-area .small-bolder{
+    font-size: 17px;
+    font-weight: 600;
+    text-align:left;
+    color: #0c1f44;
+    font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 10px;
+    margin-top: 25px;
+    }
+
+     #features .text-area .small-bolder a{
+       font-size: 17px;
+    font-weight: 700;
+    text-align:left;
+     color: #1f386b;;
+    font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 10px;   
+     }
+
+   #features .text-area .ser-list{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    color: #ffffff;
-    width: 70%;
-    padding-left:90px;
+    color: #0c1f44;
+    width: 100%;
+    padding-left:20px;
+    float: left;
     }
 
-    #features .ser-list li{
-    width: 45%;
+    #features .text-area .ser-list li{
+    width: 100%;
     float: left;
     display: block;
-    color: #ffffff;
+    color: #0c1f44;
     }
 
-    .ser-list li a{
+    #features .text-area li a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     text-align:center;
-    color: #ffffff;
+    color: #1f386b;
+
     font-family: 'Open Sans', sans-serif; 
     }
 
-    .ser-list li:last-child a{
-    padding-left: 18px;
-    }
-
+   
     .ser-list li a:hover{
-    text-decoration: underline;
+    text-decoration: underline !important;
     }
 
     .ser-list li a .fa{
-    font-size: 10px;
-    color: #ffffff;
+    font-size: 8px;
+    color: #1f386b;
+
     margin-right: 10px;
     vertical-align: 2px;
     }
 
-    #features  .ser-info{
-    display: block;
-    width: 100%;
-    background-color: #273c52;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    border-radius: 3px;
-    margin-top: 30px;
-    }
-
-    #features  .ser-info h6{
-    font-size: 17px;
-    font-weight: 400;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif; 
-    text-align: center;
-    margin-bottom: 0;
-    }
-
-    #features  .ser-info h6 a{
-    font-size: 17px;
-    font-weight: 700;
-    color: #ffffff; 
-    font-family: 'Open Sans', sans-serif; 
-    text-align: center;
-    }
-
-    #features  .ser-info h6 a .fa{
-    margin-right: 7px;
-    margin-left: 12px;
-    }
-
-
-    /* home page our products */
-
-      /* ABOUT US SECTION ON HOME PAGE */
-
-    #home-products{
-    padding-bottom: 3%;
-    padding-top: 3%;
-    background-color: #1f3042;
-    border-top:1px solid #fafafa;
-    border-bottom:1px solid #fafafa;
-
-    }
-
-    #home-products .text-pro h4 {
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 10px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";
-    }
-
-
-    #home-products .text-pro  .line-div {
-    width: 45px;
-    display: block;
-    border: 1px solid #ffffff;
-    margin-bottom: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-
-    #home-products .text-pro  h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 25px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";
-    }
-
-    #home-products .text-pro  {
-    width: 100%;
-    display: block;
-    margin-bottom: 15px;
-    }
-
-
-    #home-products .wear-offer{
-    width: 100%;
-    padding-right:30px;
-    }
-
-    #home-products .wear-side-pic{
-    width: 100%;
-    padding-top: 0;
-    }
-
-    #home-about .wear-side-pic img{
-    display: block;
-    margin-right: auto;margin-left: auto;
-    margin-top: 0;
-    border: 3px solid #cc9e62;
-    }
-
-
-    #home-products .wear-offer p{
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    }
-
-
-    .wear-offer  .wear-info-box{
-    display: block;
-    width: 100%;
-    background-color: #273c52;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:10px;
-    border-radius: 3px;
-    margin-top: 30px;
-    float: left;
-    }
-
-    .wear-offer  .wear-info-box h6{
-    font-size: 15px;
-    font-weight: 400;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif; 
-    text-align: center;
-    margin-bottom: 0;
-    }
-
-    .wear-offer  .wear-info-box h6 a{
-    font-size: 15px;
-    font-weight: 700;
-    color: #ffffff; 
-    font-family: 'Open Sans', sans-serif; 
-    text-align: center;
-    }
-
-    #home-products .offer-list{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    color: #ffffff;
-    width: 90%;
-    padding-left:40px;
-    }
-
-    #home-products .offer-list li{
-    width: 47%;
-    float: left;
-    display: block;
-    color: #ffffff;
-    }
-
-    .offer-list li a{
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 700;
-    text-align:center;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif; 
-    }
-
-    .offer-list li:last-child a{
-    padding-left: 18px;
-    }
-
-    .offer-list li a:hover{
-    text-decoration: underline;
-    }
-
-    .offer-list li a .fa{
-    font-size: 8px !important;
-    color: #ffffff;
-    margin-right: 10px;
-    vertical-align: 3px;
-    }
 
 
    /* home contact us */
@@ -705,6 +478,7 @@
     #contact-us-home{
     padding-bottom: 7%;
     padding-top: 3%;
+    padding-left: 0;padding-right: 0;
     }
 
     #contact-us-home .main-hd{
@@ -713,30 +487,49 @@
     margin-top: 5px;
     margin-bottom:45px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     display: block;
     margin-right: auto;margin-left: auto;
     }
 
+    #contact-us-home  .contact-box-home{
+        padding-left: 0;padding-right: 0;
+    }
+
     .contact-box-home .contact-us-form{
     border: 1px solid #eee;
-    padding-left: 30px;padding-right: 30px;
+    padding-left:30px;padding-right: 30px;
     padding-bottom: 30px;padding-top:15px;
-    width: 90%;
+    width:100%;
     box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
-    background-color: #1a293a;
+    background-color: #fafafa;
     }
 
     .contact-box-home .contact-us-form h2{
-    font-size: 18px;
-    font-family: "Open Sans";
-    text-align:center;
-    color: #ffffff;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin-top: 25px;
+        font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #0c1f44;
+    margin-top: 5px;
+    width: 100%;
+
+    margin-bottom: 0
     }
+
+     .contact-box-home .contact-us-form h3{
+          font-size: 23px;
+    font-weight: 400;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    color: #0c1f44;
+    margin-top: 5px;
+    width: 100%;
+    
+    margin-bottom:40px;
+    }
+     }
 
     .contact-box-home .contact-us-form  .send-message{
     color: #fff;
@@ -750,7 +543,7 @@
     margin-right: auto;
     width: 210px;
     margin-top: 25px;
-    background-color: #cc9e62;
+    background-color: #396B88;
     padding-top: 11px;
     padding-bottom: 11px;
     }
@@ -762,37 +555,104 @@
     .contact-box-home .contact-us-form .contact-form-control{
     font-size: 13px;
     color: #ffffff !important;
-    background: #22364c;
-    border: 1px solid #f0f4f6;
+    background: #ffffff;
+     border: 1px solid #b4c2c5;
     border-radius: 0;
     font-family: "Open Sans";
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 20px;
     width: 100%;
+    font-weight:600;
+   
     }
 
     .contact-box-home .contact-form-control::placeholder{
-    color: #ffffff;
+    color: #0c1f44;
+     font-weight:600;
+     font-family: "Open Sans";
+
     }
 
     .contact-box-home .contact-form-control:focus {
-    border: 1px solid #76C857 !important;
+    border: 1px solid #0c1f44 !important;
     -webkit-box-shadow: none;
     outline: -webkit-focus-ring-color auto 0px;
+   
     }
 
-    .service-info{
-     border: 1px solid #fafafa;
-     padding-right: 25px;padding-left: 25px;
-     padding-top:40px;
+
+    /* maap and hours of operatipon*/
+    #location-hour {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        border-top: 1px solid #eee;
+         border-bottom: 1px solid #eee;
     }
 
-    .service-info .open-hours {
+
+    #location-hour .map-info .t-1{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #0c1f44;
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+    }
+
+     #location-hour .map-info .t-2{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #0c1f44;
+    margin-top:0;
+     margin-bottom: 20px;
+    }
+
+    .service-info .t-3{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #0c1f44;
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+    }
+
+
+    .service-info .t-4{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #0c1f44;
+    margin-top:0;
+    margin-bottom: 20px;
+    }
+
+    #location-hour .service-info{
+    padding-right: 25px;padding-left: 25px;
+    padding-top:0;
+
+    }
+
+    #location-hour .service-info .open-hours {
     list-style-type: none;
     padding-left: 0;
     width: 100%;
     float: left;
+    background-color: #f3f3f3;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
     }
 
     .service-info .open-hours  li{
@@ -805,11 +665,11 @@
     .service-info .open-hours li p{
         font-family: "Open Sans";
     font-weight: 600;
-    color: #ffffff;
+    color: #0c1f44;
     text-align: center !important;
     font-size: 16px;
     float: left;
-    background:#223346;
+    background:#d5e0ec;
     width: 140px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -820,7 +680,7 @@
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 600;
-    color: #ffffff;
+    color: #0c1f44;
     text-align: center;
     letter-spacing: 1px;
     margin-left: auto;
@@ -829,154 +689,21 @@
     margin-bottom: 0;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #283b50;
+    background:#fafafa;
     }
 
      .service-info .open-hours h3{
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Open Sans";
-    text-align: center;
-    color: #ffffff;
-    font-weight: 400;
+    text-align:left;
+     color: #0c1f44;
+    font-weight: 500;
     letter-spacing: 1px;
-    margin-bottom: 25px;
-    }
-
-    .service-info .tx-in h6{
-    font-size: 14px;
-    font-family: "Open Sans";
-    text-align: left;
-    color: #ffffff;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-    border-bottom: 1px solid #253c56;
-    padding-bottom: 6px;
-    margin-top:20px;
-    }
-
-    .service-info .tx-in a{
-    font-size: 17px;
-    font-family: "Open Sans";
-    text-align: left;
-    color: #ffffff;
-    font-weight: 600;
-    margin-bottom: 15px;
-    padding-left:20px;
-
-    }
-
-    .service-info .tx-in span{
-    color: #ffffff;
-    margin-left: 7px; 
-    font-family: "Open Sans";
-    font-weight: 400;
-    }
-
-    .service-info .tx-in h6 .fa{
-    margin-right: 10px;
-    font-style: 17px;
-    }
-
-
-   /* Home page zoc doc doctor section */
-
-
-    #home-zodoc{
-    padding-bottom: 3%;
-    padding-top: 3%;
-    background-color: #1f3042;
-    border-top:1px solid #fafafa;
-    border-bottom:1px solid #fafafa;
-
-    }
-
-    #home-zodoc .right-zo-doc{
-    width: 100%;
-    padding-left:30px;
-    display: block;
-    float: left;
-    padding-top: 25px;
-    }
-
-    .right-zo-doc .banner-in{
-            display: block;
-    width: 100%;
-    background-color: #273c52;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    border-radius: 3px;
-    margin-top: 30px;
-    }
-
-    .right-zo-doc .banner-in h6 {
-         font-size: 17px;
-    font-weight: 400;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif; 
-    text-align: center;
-    margin-bottom: 0;
-      margin-top: 10px;
-    }
-
-    .right-zo-doc .banner-in h6 a{
-       font-size: 17px;
-    font-weight: 700;
-    color: #ffffff; 
-    font-family: 'Open Sans', sans-serif; 
-    text-align: center;  
-
-    }
-
-    #home-zodoc .text-inner{
-    width: 100%;
-    display: block;
-    }
-
-    #home-zodoc .text-inner h4{
-    font-size: 20px;
-    font-weight: 300;
     margin-bottom: 10px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";
     }
 
-    #home-zodoc .text-inner h2{
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 25px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";
-    }
+    
 
-    #home-zodoc .text-inner .line-div{
-    width: 45px;
-    display: block;
-    border: 1px solid #ffffff;
-    margin-bottom: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-    .right-zo-doc p{
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    }
-
-
-    .zo-left-pic img{
-      display: block;
-      width: 100%;
-      padding-top: 10px;
-    }
 
 
     /* Home page client testimonials */
@@ -984,30 +711,31 @@
     .customer-section{
     display: block;
     width: 100%;
-    padding-top: 20px;padding-bottom:20px;
-    /*background-image: url(../img/background-testimonial-clients.png);*/
+    padding-top: 25px;padding-bottom:34px;
+     background: url(../img/dotted-background.jpg);
+    background-size: cover;
+  
+    background-repeat: no-repeat;
     
     }
 
     .customer-section .text-box-cust h2{
-    font-size: 30px;
-    font-weight: 400;
-    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 10px;
     margin-bottom: 5px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
     }
 
     .customer-section .text-box-cust h4{
-      font-family: "Roboto";
-    font-weight: 300;
-    color: #fafafa;
-    font-size: 20px;
+      font-family: "Open Sans";
+    font-weight: 400;
+    color: #0c1f44;
+    font-size: 23px;
     text-align: center;
     margin-top: 0;
-    margin-bottom:15px;
     }
 
    
@@ -1022,65 +750,73 @@
     }
 
     .card-impressions .carousel-item {
-    height:300px;
+    height:270px;
    
 
     }
     .card-impressions .user-caption {
-    padding-top:30px;padding-bottom: 20px;
+    padding-bottom:10px;
     padding-left: 20px;padding-right: 20px;
     right: 0;
     left: 0;
-    color: #ffffff;
-    background: #1e2f42;
+    color: #0c1f44;
+    background:transparent;
     height: 100%;
     width: 100%;
     border-radius: 10px;
+
     top:30px;
     }
 
     .card-impressions .user-caption .text-review{
     text-align: center;
-    font-family: "Roboto";
-    font-weight: 400;
-    color:#ffffff;
-    font-size: 17px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color:#0c1f44;
+    font-size: 16px;
     margin-right: auto;
     margin-left: auto;
     display: block;
-    margin-top: 20px;
+    padding-left: 22px;
 
     }
 
     .card-impressions .user-caption .user-name{
-    text-align: center;
-    font-family: "Roboto";
-    font-weight: 500;
-    color:#cc9e62!important;
-    font-size: 20px;
-    margin-right: auto;
-    margin-left: auto;
+    text-align: right;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color:#0c1f44!important;
+    font-size: 17px;
     display: block;
     margin-bottom: 3px;
     margin-top: 20px;
+
+    }
+
+    .card-impressions .user-caption .line-bor{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #314b7b;
+        margin-top: 10px;
+
     }
 
     .card-impressions .user-caption .user-title{
-    text-align: center;
-    font-family: "Roboto";
+    text-align: right;
+     font-family: "Open Sans";
     font-weight: 400;
-    color: #fafafa !important;
+    color: #0c1f44 !important;
     font-size: 16px;
-    margin-right: auto;
-    margin-left: auto;
+    float: right;
     display: block;
     font-style: italic;
     }
 
     .card-impressions .user-caption .user-picture{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+        position: absolute;
+    left: 3px;
+    top:6px;
     }
 
 
@@ -1094,93 +830,28 @@
 
  
 
-    .customer-section .btn-go-about{
-    display:block;
-    width: 230px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    text-transform: uppercase;
-    background-color:#cc9e62;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    border: 1px solid #cc9e62;
-    border-radius: 3px;
-    letter-spacing: 1px;
-    margin-top: 20px;
-    position: relative;
-    white-space: normal !important;
-    word-wrap: break-word !important; 
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-
-     .customer-section .btn-go-about span{
-    font-size: 15px;
-    font-weight: 500;
-    font-family: "Open Sans";
-    }
-
     .navi{
     display: block;
-    
+    margin-right: auto;margin-left: auto;
     width: 54px;
     margin-top: 15px;
-    float: right;
-
-    }
-
+    position: absolute;
+    left:45%; bottom:10%;
   
 
+    }
 
-
-    /* banner example */
-
-    #banner-section{
-    padding-bottom:0;
-    padding-top:2%;
-    background-image: url(../img/banner-cta-image.jpg);
-    background-size: cover;
+    .navi .carousel-control-prev-icon {
+    background-image: url(../img/icon-left.png);
+    background-repeat: no-repeat;
 
     }
 
-   
-    #banner-section .about-location{
-    display: block;
-    width: 100%;
+    .navi  .carousel-control-next-icon {
+     background-image: url(../img/icon-right.png);
+    background-repeat: no-repeat;
     }
 
-    #banner-section .about-location .title{
-    font-family: 'Open Sans';
-    font-weight: 700;
-    color:#1d2a38;
-    font-size: 23px;
-    margin-bottom:10px;
-    margin-top: 20px;
-    text-align: right;
-    text-transform: uppercase;
-
-    }
-
-    #banner-section .about-location h5{
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #1d2a38;
-    font-size: 20px;
-    text-align: right;
-    margin-bottom: 15px;
-    }
-
-
-    #banner-section .about-location p{
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #1d2a38;
-    font-size: 13px;
-    text-align: right;
-    margin-bottom: 3px;
-    }
 
     .about-location .btn-cta{
       display: block;
@@ -1198,7 +869,7 @@
     width: 200px;
     font-family: "Open Sans";
     font-weight: 600;
-    color: #ffffff;
+    color: #0c1f44;
     text-transform: uppercase;
     background-color: #cc9e62;
     padding-top:11px;
@@ -1244,81 +915,55 @@
 
 
     .banner-contact-cover {
-    padding-top: 160px;
-    padding-bottom: 4%;
+       padding-top: 132px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #eee;
-    background-color: #1d2a38;
-        background: url(../img/contact-page-banner.jpg);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
+    border-top: 1px solid #eee;
+    background-color: #fafafa;
     width: 100%;
+    margin-bottom: 30px;
     }
 
     .banner-contact-cover .contact-text-head h6{
     font-size: 18px;
     font-family: "Open Sans";
     text-align:center;
-    color: #ffffff;
+    color: #0c1f44;
     font-weight: 400;
     letter-spacing: 1px;
     }
 
     .banner-contact-cover .contact-text-head h2{
-      font-size:42px;
+        font-size: 42px;
     font-family: "Open Sans";
-    text-align:center;
-    color: #ffffff;
+    text-align: center;
+    color: #0c1f44;
     font-weight: 700;
     letter-spacing: 2px;
-    text-transform: uppercase;  
     margin-top: 10px;
     }
 
-    #contact-section{
-    padding-bottom: 7%;
-    padding-top: 4%;
-
-    }
-
-    .contact-us-form{
-    border: 1px solid #eee;
-    padding-left: 30px;padding-right: 30px;
-    padding-bottom: 30px;padding-top:15px;
-    width: 90%;
-    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
-    background-color: #1a293a;
-    }
-
-     .contact-us-form h2{
-         font-size: 18px;
-    font-family: "Open Sans";
-    text-align:center;
-    color: #ffffff;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin-top: 25px;
-     }
+ 
 
     .contact-us-form  .send-message{
         color: #fff;
     font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 230px;
-    margin-top: 55px;
-    background-color: #cc9e62;
-    padding-top: 12px;
-    padding-bottom: 12px; 
+    width: 200px;
+    margin-top:20px;
+    background-color: #396B88;
+    padding-top: 10px;
+    padding-bottom: 10px; 
     }
 
     .contact-us-form  .send-message:hover{
-       background-color: #d69b4e; 
+       background-color: #478db6; 
     }
 
     .contact-us-form .contact-form-control{
@@ -1335,7 +980,7 @@
     }
 
     .contact-form-control::placeholder{
-        color: #ffffff;
+        color: #0c1f44;
     }
 
     .contact-form-control:focus {
@@ -1391,7 +1036,7 @@
     font-family: "Open Sans";
     font-weight: 600;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     margin-bottom: 20px;
     }
 
@@ -1402,7 +1047,7 @@
     font-family: "Open Sans";
     font-weight: 400;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     }
 
     .contact-list-zocdoc .text-in .button-go-zocdoc {
@@ -1434,9 +1079,9 @@
     /* Section infortmation */
 
      #section-information{
-    padding-bottom:60px;
-    padding-top:40px;
-    background-color: #1d2f42;
+    padding-bottom:40px;
+    padding-top:30px;
+  
     }
 
     #section-information .cnt-text{
@@ -1447,7 +1092,7 @@
     #section-information .cnt-text .cnt-subtitle{
        font-family: "Open Sans";
     font-weight:600;
-    color: #ffffff;
+    color: #0c1f44;
     font-size: 34px;
     text-align: center;
     text-transform: uppercase;
@@ -1458,7 +1103,7 @@
     #section-information .cnt-text h3{
        font-family: "Open Sans";
     font-weight: 400;
-    color: #ffffff;
+    color: #0c1f44;
     font-size:20px;
     text-align: center;
     letter-spacing: 2px;
@@ -1489,13 +1134,13 @@
     margin-top:15px;
     font-family: "Open Sans";
     font-weight: 600;
-    color: #ffffff;
+    color: #0c1f44;
     font-size: 15px;
     border: 1px solid #fafafa;
     padding-top: 10px;padding-bottom: 10px;
     margin-bottom: 25px;
     text-transform: uppercase;
-    background-color: #243b52;
+    background-color: #fafafa;
     }
 
 
@@ -1523,8 +1168,8 @@
 
     .box-info .skew-txt-info a{
     font-family: "Open Sans";
-    font-weight: 400;
-    color:#ffffff;
+    font-weight: 600;
+    color:#0c1f44;
     text-align: center !important;
     font-size:16px;
     letter-spacing: 1px;
@@ -1543,8 +1188,8 @@
 
     .box-info .skew-txt-info p{
     font-family: "Open Sans";
-    font-weight: 400;
-    color:#ffffff;
+    font-weight: 600;
+    color:#0c1f44;
     text-align: center !important;
     font-size:15px;
     }
@@ -1566,7 +1211,7 @@
     font-family: "Open Sans";
     font-size: 14px !important;
     font-weight: 400;
-    color: #ffffff;
+    color: #0c1f44;
     text-align: center; 
     letter-spacing: 1px; 
     margin-bottom: 0;
@@ -1577,7 +1222,7 @@
     font-family: "Open Sans";
     font-size: 13px;
     font-weight: 600;
-    color: #ffffff;
+    color: #0c1f44;
     text-align: center; 
     letter-spacing: 1px; 
     margin-left: auto;margin-right: auto;
@@ -1622,7 +1267,7 @@
 	/* --------------- FOOTER STYLE -------------------  */ 
 
   footer{
-    background:#131f28 !important;
+    background:#eef1f3 !important;
     padding-top:30px;
     padding-bottom:0;
 
@@ -1701,8 +1346,8 @@
     .logo-left li p{
     font-family: "Open Sans";
     font-size: 13px;
-    font-weight: 500;
-    color: #dee1e3;
+    font-weight: 600;
+    color: #0c1f44;
     text-align: left; 
     letter-spacing: 1px; 
     margin-bottom: 3px;   
@@ -1711,7 +1356,7 @@
      .logo-left li p .fa{
        margin-right:11px;
      font-size: 16px; 
-     color: #ffffff; 
+     color: #0c1f44; 
      }
 
 
@@ -1727,7 +1372,7 @@
     .footer-hours  h3{
     font-family: "Open Sans";
     font-weight: 600;
-    color: #ffffff;
+    color: #0c1f44;
     text-transform: uppercase;
     font-size: 12px;
     text-align: center; 
@@ -1806,12 +1451,12 @@
     .social-footer  h3{
     font-family: "Open Sans";
     font-weight: 600;
-    color: #ffffff;
+    color: #0c1f44;
     text-transform: uppercase;
     font-size: 12px;
     text-align: center; 
     letter-spacing: 1px; 
-    border-bottom: 1px solid #344149;
+    border-bottom: 1px solid #8c9aa5;
     padding-bottom: 12px;
     margin-bottom: 20px;
     width:100%;
@@ -1832,7 +1477,7 @@
     .social-footer li p{
     font-family: "Open Sans";
     font-weight: 300;
-    color: #ffffff;
+    color: #0c1f44;
     font-size: 13px;
 
     letter-spacing: 1px; 
@@ -1853,7 +1498,7 @@
     .social-footer .btn-our-blog{
     font-family: "Open Sans";
     font-weight: 500;
-    color: #ffffff;
+    color: #0c1f44;
     font-size: 13px;    
     text-decoration: none;
     border-radius: 5px;
@@ -1870,7 +1515,7 @@
 
     .social-footer .btn-our-blog:hover{
     background: #ce2027;
-    color: #ffffff;
+    color: #0c1f44;
     cursor: pointer; 
     }
 
@@ -1906,14 +1551,14 @@
     display: block;
     width: 100%;
     padding-top:7px;padding-bottom:7px;
-    background-color: #111b23;
+    background-color: #dee1e2;
     margin-top: 20px;
     }
 
     .sub-footer .copy {
         font-family: "Roboto";
-    font-weight: 400;
-    color: #d5d2d2 !important;
+    font-weight: 600;
+    color: #0c1f44 !important;
     text-align: center;
     display: block;
     font-size: 11px;
@@ -1943,7 +1588,7 @@
     font-size: 18px;
     font-family: "Open Sans";
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-weight: 400;
     letter-spacing: 1px;
     }
@@ -1952,7 +1597,7 @@
     font-size: 42px;
     font-family: "Open Sans";
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -2147,7 +1792,7 @@
     .promo-box .txt-in .price{
     font-family: "Open Sans";
     font-weight: 700;
-    color: #ffffff;
+    color: #0c1f44;
     font-size:55px;
     text-align: center;
     text-transform: uppercase; 
@@ -2179,12 +1824,46 @@
 
 
     /* ---------- About us ----------- */
+   
 
-   .main-about{
-    padding-top:130px;
+    .banner-about-cover {
+    padding-top: 132px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    background-color: #fafafa;
+    width: 100%;
+    margin-bottom: 30px;
+    }
+
+    .banner-about-cover  .services-text-head h6 {
+    font-size: 18px;
+    font-family: "Open Sans";
+    text-align: center;
+    color: #00234b;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+    }
+
+    .banner-about-cover .services-text-head h2 {
+    font-size: 42px;
+    font-family: "Open Sans";
+    text-align: center;
+    color: #0c1f44;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+
+    }
+
+
+    .main-about{
+    padding-top:20px;
     padding-bottom:20px;
-        background-color: #213040;
-   }
+        box-shadow: 0 5px 5px 5px rgba(0,0,0,.1);
+        padding-left: 50px;padding-right: 50px;
+    }
 
 
     /*  right side about doctor */
@@ -2205,30 +1884,29 @@
      .about-doctor .imp-banner-about{
     display: block;
     width: 100%;
-    background-color: #273c52;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
     padding-left: 5px;
     border-radius: 3px;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 20px;
     }
 
       .about-doctor .imp-banner-about h4{
     font-size: 17px;
-    font-weight: 400;
-    color: #ffffff;
+    font-weight: 600;
+    color: #0c1f44;
     font-family: 'Open Sans', sans-serif; 
-    text-align: center;
+    text-align: left;
     margin-bottom: 0;
     }
 
      .about-doctor .imp-banner-about h4 a{
     font-size: 17px;
     font-weight: 700;
-    color: #cc9e62; 
+    color: #1f386b; 
     font-family: 'Open Sans', sans-serif; 
-    text-align: center;
+    text-align: left;
     }
 
       .about-doctor .imp-banner-about h4 a .fa{
@@ -2242,7 +1920,7 @@
     font-weight: 300;
     margin-bottom:5px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family:"Open Sans";
 
     }
@@ -2253,16 +1931,16 @@
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 25px;
-    text-align: center;
-    color: #ffffff;
+    text-align:left;
+    color: #0c1f44;
     font-family:"Open Sans";
     }
 
     .about-doctor .text-inner p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     text-align:left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family:"Open Sans";
     }
 
@@ -2275,7 +1953,7 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";  
     margin-bottom: 6px; 
     }
@@ -2284,7 +1962,7 @@
     font-size:15px;
     font-weight:700;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     margin-bottom: 0; 
 
@@ -2294,7 +1972,7 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans"; 
     margin-bottom: 2px;
 
@@ -2352,7 +2030,7 @@
     padding-left: 20px;padding-right: 20px;
     right: 0;
     left: 0;
-    color: #ffffff;
+    color: #0c1f44;
     background: #1e2f42;
     height: 100%;
     width: 100%;
@@ -2419,7 +2097,7 @@
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     }
@@ -2475,15 +2153,13 @@
 
 
     .banner-services-cover {
-  padding-top: 144px;
-    padding-bottom: 18px;
+     padding-top: 132px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #eee;
-    background-color: #1d2a38;
-    background: url(../img/each-service-banner.jpg);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
+    border-top: 1px solid #eee;
+    background-color: #fafafa;
     width: 100%;
+    margin-bottom: 30px;
     }
 
     .banner-services-cover  .services-text-head h6 {
@@ -2497,13 +2173,12 @@
     }
 
     .banner-services-cover  .services-text-head h2 {
-        font-size: 42px;
+         font-size: 42px;
     font-family: "Open Sans";
     text-align: center;
-    color: #1d2a38;
+    color: #0c1f44;
     font-weight: 700;
     letter-spacing: 2px;
-    text-transform: uppercase;
     margin-top: 10px;
 
     }
@@ -2520,32 +2195,58 @@
     }
 
     .main-services-text .in-text{
-    padding-left: 20px;
+    padding-left:0;
     }
 
     .main-services-text .in-text h2{
-    font-size: 30px;
+    font-size: 28px;
     font-weight:700;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
     .main-services-text .in-text p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
-     .main-services-text .in-text p a{
-        font-size: 14px;
+
+    .main-services-text .in-text .price{
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+    color: #0c1f44;
+    font-family: "Open Sans";
+    }
+
+     .main-services-text .in-text .price span{
+    font-size: 25px;
     font-weight: 700;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
+    font-family: "Open Sans";
+    }
+
+     .main-services-text .in-text .line-divider-1{
+        border: 1px solid #eee;
+        width: 100%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+     }
+
+
+     .main-services-text .in-text p a{
+        font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    color: #0c1f44;
     font-family: "Open Sans"; 
      }
 
@@ -2555,38 +2256,60 @@
     margin-top: 5px;
     margin-bottom:10px;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
 
+
+    .main-services-text .in-text .imp-txt-v2{
+    font-size: 16px;
+    font-weight: 600;
+    text-align:left;
+    color: #0c1f44;
+    font-family: "Open Sans";
+    text-decoration: none;  
+    }
+
+    .main-services-text .in-text .imp-txt-v2 a{
+    font-size: 16px;
+    font-weight: 700;
+    text-align:left;
+    color:#1f386b;
+    font-family: "Open Sans";
+    text-decoration: none;  
+    }
+
+    .main-services-text .in-text .imp-txt-v2 a:hover{
+    text-decoration: underline;
+    }
+
     .main-services-text .important-txt-banner{
     display: block;
     width: 100%;
-    background-color: #273c52;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30px;
+    padding-left:5px;
     border-radius: 3px;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     }
 
     .main-services-text .important-txt-banner h4{
     font-size: 17px;
-    font-weight: 400;
-    color: #ffffff;
+    font-weight: 600;
+    color: #0c1f44;
     font-family: 'Open Sans', sans-serif; 
-    text-align: center;
+    text-align: left;
     margin-bottom: 0;
     }
 
     .main-services-text .important-txt-banner h4 a{
     font-size: 17px;
     font-weight: 700;
-    color: #ffffff; 
+    color: #1f386b; 
     font-family: 'Open Sans', sans-serif; 
-    text-align: center;
+    text-align: left;
     }
 
     .main-services-text .important-txt-banner h4 a .fa{
@@ -2602,7 +2325,7 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";  
     margin-bottom: 6px; 
     }
@@ -2611,17 +2334,17 @@
        font-size:15px;
     font-weight:700;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     margin-bottom: 0; 
     
     }
 
     .in-text .list-ex li  p{
-      font-size: 14px;
+      font-size: 15px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans"; 
     margin-bottom: 2px;
    
@@ -2644,15 +2367,16 @@
     .wrapper-services{
     padding-bottom: 40px;
     padding-top: 30px;
-        background-color: #213040;
+     box-shadow: 0 5px 5px 5px rgba(0,0,0,.1);
+    padding-left: 70px;padding-right: 70px;
     }
 
     /* top text services on service page*/
    
 
     .wrapper-services .first-service-section {
-     border-bottom: 1px solid #1a2735;
-    padding-bottom: 20px;
+
+    padding-bottom: 5px;
     }
    
 
@@ -2661,24 +2385,24 @@
     font-weight: 700;
     margin-top: 5px;
     margin-bottom:20px;
-    text-align: center;
-    color: #ffffff;
+    text-align:left;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
     .wrapper-services .first-service-section p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
-    text-align: center;
-    color: #ffffff;
+    text-align: left;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
     .wrapper-services .first-service-section p a{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
-    text-align: center;
-    color: #ffffff;
+    text-align: left;
+    color: #0c1f44;
     font-family: "Open Sans";
     text-decoration: none;
     }
@@ -2692,28 +2416,37 @@
     /* Inside text fro service page */
 
     .inside-service-tx-2 {
-    border-bottom: 1px solid #1a2735;
-    padding-bottom: 20px;
-    padding-left: 30px;padding-right: 30px;
-    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 0px;padding-right: 0px;
+    padding-top:5px;
+    }
+
+    .inside-service-tx-2 h2{
+    font-size: 28px;
+    font-weight:700;
+    margin-top: 5px;
+    margin-bottom:20px;
+    text-align:left;
+    color: #0c1f44;
+    font-family: "Open Sans";
     }
 
 
     .inside-service-tx-2 h3{
-    font-size: 28px;
-    font-weight: 600;
-    margin-top: 5px;
+    font-size: 25px;
+    font-weight:700;
+    margin-top: 20px;
     margin-bottom:20px;
-    text-align: center;
-    color: #ffffff;
+    text-align:left;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
     .inside-service-tx-2 p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     text-align:left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -2721,7 +2454,7 @@
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     text-decoration: none;
     }
@@ -2731,34 +2464,34 @@
     }
 
     .inside-service-tx-2  ul{
-        color: #ffffff;
-        padding-left: 70px;
+        color: #0c1f44;
+        padding-left: 50px;
     }
 
      .inside-service-tx-2  ul li h6{
        font-size: 14px;
     font-weight: 700;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     text-decoration: none;
     margin-bottom: 2px;
      }
 
     .inside-service-tx-2 .imp-txt{
-        font-size: 15px;
+        font-size: 16px;
     font-weight: 600;
-    text-align: center;
-    color: #ffffff;
+    text-align:left;
+    color: #0c1f44;
     font-family: "Open Sans";
     text-decoration: none;  
     }
 
     .inside-service-tx-2 .imp-txt a{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
-    text-align: center;
-    color:#cc9e62;
+    text-align:left;
+    color:#1f386b;
     font-family: "Open Sans";
     text-decoration: none;  
     }
@@ -2781,7 +2514,7 @@
     margin-top: 5px;
     margin-bottom: 20px;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -2789,7 +2522,7 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -2799,7 +2532,7 @@
     margin-top: 5px;
     margin-bottom:10px;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -2808,82 +2541,11 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";   
     }
 
-    .service-side{
-        width: 100%;
-    }
 
-    .choose-us{
-    list-style: none;
-    display: block;
-    width: 100%;
-    background: #24384e;
-    padding-left: 0;
-    margin-top: 25px;
-    float: left;
-    }
-
-    .choose-us li{
-    display: block;
-    width: 100%;
-    float: left;
-    }
-
-    .choose-us li .button-go-contact {
-     color: #00234b;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:100%;
-    margin-top:0;
-      background-color: #fff04b;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 0;
-    letter-spacing: 0;
-    text-align: center;
-    }
-
-    .choose-us li .button-go-contact .fa{
-    margin-left: 7px;
-    font-size: 18px;
-     color: #00234b;
-    }
-
-    .choose-us li .button-go-contact:hover{
-    cursor: pointer;
-    background-color: #dfd02a;
-     color: #00234b;
-    }
-
-    .choose-us li a{
-    font-size: 20px;
-    font-family: "Open Sans";
-    text-align: center;
-    color: #ffffff;
-    font-weight: 700;
-    margin-bottom: 0;
-    text-decoration:none;
-    letter-spacing: 3px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-    .choose-us li a .fa {
-    font-size: 20px;
-    margin-right: 10px;
-    color: #ffffff;
-    vertical-align: -2px;
-    }
 
    
 
@@ -2891,38 +2553,28 @@
     /*  -------------   Main OUR SERVICES PAGE ----------- */
     
     .top-1{
-            background-color: #213040;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.1);
+    
     }
      
-     .banner-main-ser {
-       padding-top: 144px;
-    padding-bottom: 18px;
+    .banner-main-ser {
+    padding-top: 132px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #eee;
-    background-color: #1d2a38;
-    background: url(../img/each-service-banner.jpg);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
+    border-top: 1px solid #eee;
+    background-color: #fafafa;
     width: 100%;
+    margin-bottom: 30px;
     }
 
-    .banner-main-ser  .services-tx-main h6 {
-    font-size: 18px;
-    font-family: "Open Sans";
-    text-align: center;
-        color: #00234b;
-    font-weight: 400;
-    letter-spacing: 1px;
-    }
 
     .banner-main-ser  .services-tx-main h2 {
     font-size: 42px;
     font-family: "Open Sans";
     text-align: center;
-        color:#1d2a38;
+        color:#0c1f44;
     font-weight: 700;
     letter-spacing: 2px;
-    text-transform: uppercase;
     margin-top: 10px;
     }
 
@@ -2930,25 +2582,32 @@
     padding-top: 40px;
     display: block;
     float: left;
-    padding-left: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
     }
 
     .top-service-tx .text-inside h2{
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
-    text-align: center;
-    color: #ffffff;
+    text-align:left;
+    color: #0c1f44;
     font-family: "Open Sans";
 
     }
 
+     .top-service-tx .text-inside .ser-img-1{
+        display: block;
+        float: right;
+        margin-left: 35px;
+     }
+
    .top-service-tx .text-inside p {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     text-align:left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -2958,7 +2617,7 @@
     margin-top: 5px;
     margin-bottom: 10px;
     text-align:left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -2970,7 +2629,7 @@
     }
 
      .top-service-tx .text-inside .ex-list li{
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     font-size: 15px;
     font-size: 15px;
@@ -2980,17 +2639,17 @@
      }
 
      .top-service-tx .text-inside .ex-list li h6{
-       font-size: 14px;
+       font-size: 15px;
     font-weight: 500;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans"; 
      }
 
 
     .top-service-tx .text-inside .ex-list li h6 a{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans"; 
     text-transform: uppercase;
     margin-right: 10px;
@@ -3000,18 +2659,18 @@
     .ex-banner-1{
     display: block;
     width: 100%;
-    background-color: #273c52;
+ 
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30px;
+    padding-left: 10px;
     border-radius: 3px;
-    margin-top: 30px;
+    margin-top:5px;
     }
 
     .ex-banner-1 h4{
     font-size: 17px;
     font-weight: 400;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: 'Open Sans', sans-serif; 
     text-align: center;
     margin-bottom: 0;
@@ -3020,7 +2679,7 @@
     .ex-banner-1 h4 a{
     font-size: 17px;
     font-weight: 700;
-    color: #ffffff; 
+    color: #1f386b; 
     font-family: 'Open Sans', sans-serif; 
     text-align: center;
     }
@@ -3050,15 +2709,16 @@
     display: block;
     width: 100%;
     padding-top:3%;
-        background-color: #213040;
+     
+      box-shadow: 0 5px 5px 5px rgba(0,0,0,.1);
     }
 
     .service-list .tx-inner-sr h4 {
     font-size: 17px;
     font-weight: 400;
     margin-bottom: 15px;
-    text-align: center;
-    color: #ffffff;
+    text-align:left;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -3078,7 +2738,7 @@
     display: block;
     width: 100%;
     float: left;
-    background-color: #273c52;
+    background-color: #f5f3f3;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -3089,7 +2749,7 @@
      .service-list .ex-banner-2 h4{
     font-size: 17px;
     font-weight: 400;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: 'Open Sans', sans-serif; 
     text-align: center;
     margin-bottom: 0;
@@ -3098,7 +2758,7 @@
      .service-list .ex-banner-2 h4 a{
     font-size: 17px;
     font-weight: 700;
-    color: #ffffff; 
+    color: #0c1f44; 
     font-family: 'Open Sans', sans-serif; 
     text-align: center;
     }
@@ -3113,9 +2773,9 @@
     font-size: 30px;
     font-weight: 700;
     margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-    color: #ffffff;
+    margin-bottom:20px;
+    text-align: left;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -3123,6 +2783,8 @@
     width: 100%;
     display: block;
     margin-bottom:10px;
+        padding-left: 70px;
+        padding-right:70px;
     }
 
     .service-list .tx-inner-sr .main-ser-list{
@@ -3134,7 +2796,7 @@
     }
 
     .main-ser-list li{
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     font-size: 15px;
     font-size: 15px;
@@ -3147,7 +2809,7 @@
     .main-ser-list li h6{
     font-size: 15px;
     font-weight: 500;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans"; 
     }
 
@@ -3155,184 +2817,51 @@
     .main-ser-list li h6 a{
     font-size: 18px;
     font-weight: 700;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans"; 
-    text-transform: uppercase;
-    margin-right: 10px;
+    margin-right: 5px;
     }
 
 
-      /* whye us*/
+    /* listo no link */
 
-    .sutphin-fea{
+    .service-list .tx-inner-sr .list-no-link{
     display: block;
-    padding-left: 0;
+    float: left;
     width: 100%;
-    margin-top: 30px;
-    float: left;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-bottom: 30px;
+    padding-left:50px;
+    margin-top: 15px;
     }
 
-    .sutphin-fea li{
-    list-style-type: none;
-    display: block;
-    float: left;
-    width: 23%;
-    margin-right: 12px;
-    }
-
-    .sutphin-fea li:last-child{
-    margin-right: 0;
-    }
-
-    .sutphin-fea li img{
-    display: block;
-    margin-right: auto;
-    margin-left:auto;
-
-    }
-
-    .sutphin-fea li h6{
+    .list-no-link li{
+    color: #0c1f44;
     font-family: "Open Sans";
-    font-weight:400;
-    color: #ffffff;
-    font-size: 14px;
-    text-align: center !important;
-    margin-top: 10px;
-    }
-
-    .sutphin-fea li  .line {
-    width:30px;
-    display: block;
-    border: 1px solid #ffffff;
-    margin-bottom: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   }
-
-    .sutphin-fea li .title{
-      font-family: "Open Sans";
-    font-weight:600;
-    color: #ffffff;
-    font-size: 16px;
-    text-align: center !important;
-    margin-top: 10px;   
-    }
-
-    .sutphin-fea h3 {
-    font-family: "Open Sans";
-    font-weight:400;
-    color: #ffffff;
     font-size: 15px;
-    text-align: center !important;
-    margin-top: 10px;
-    margin-bottom: 35px;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
     }
 
-    .sutphin-fea h2{
-            font-size: 30px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans";
+    .list-no-link li h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0c1f44;
+    font-family: "Open Sans"; 
+    margin-bottom: 3px;
     }
+
+     .list-no-link li h5 a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1f386b;
+    font-family: "Open Sans"; 
+    }
+
+    
 
 
 
    
-     /* insurance logo section */
-
-
-    .insurance-section{
-    padding-top: 30px;
-    padding-bottom:30px;
-    width: 100%;
-    display: block;
-    background-color: #1f3042;
-    }
-
-    .insurance-section .text-box-software{
-    display: block;
-    width: 100%;
-    }
-
-    .insurance-section .text-box-software h2{
-    font-family: "Open Sans";
-    font-weight: 600;
-    color: #fff !important;
-    font-size: 28px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    }
-
-    .insurance-section .text-box-software h4{
-     font-family: "Open Sans";
-    font-weight: 400;
-    color: #fafafa;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 40px;
-    }
-
-    .insurance-section .logo-insu{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-    .logo-insu .button-go-more {
-    color: #fff;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 170px;
-    margin-top: 25px;
-    background-color: #cc9e62;
-    padding-top: 9px;
-    padding-bottom: 9px;
-   }
-
-    .logo-insu  .info-msg{
-    display: block;
-    width: 100%;
-    margin-top:40px;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-    .logo-insu  .info-msg h6{
-    font-family: "Open Sans";
-    font-weight: 400;
-    color:#ffffff;
-    font-size: 12px;
-    text-align: center;
-    background:#25394e;
-    padding-top: 8px;padding-bottom: 8px;
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    }
-
-    .logo-insu .info-msg .fa{
-        margin-right: 10px;
-        font-size: 14px;
-    }
-
-
     /*  EYEWEAR GLALERY PAGE  */
     
     .page-eyewear{
@@ -3445,7 +2974,7 @@
     margin-top: 5px;
     margin-bottom: 20px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -3453,7 +2982,7 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -3461,7 +2990,7 @@
     font-size: 14px;
     font-weight: 700;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans"; 
     }
 
@@ -3471,7 +3000,7 @@
     margin-top: 5px;
     margin-bottom:10px;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -3483,7 +3012,7 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";  
     margin-bottom: 6px; 
     }
@@ -3492,7 +3021,7 @@
     font-size:15px;
     font-weight:700;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     margin-bottom: 0; 
 
@@ -3502,7 +3031,7 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans"; 
     margin-bottom: 2px;
 
@@ -3523,7 +3052,7 @@
     .eye-top-text .eyewear-txt-banner h4{
     font-size: 17px;
     font-weight: 400;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: 'Open Sans', sans-serif; 
     text-align: center;
     margin-bottom: 0;
@@ -3532,7 +3061,7 @@
     .eye-top-text .eyewear-txt-banner h4 a{
     font-size: 17px;
     font-weight: 700;
-    color: #ffffff; 
+    color: #0c1f44; 
     font-family: 'Open Sans', sans-serif; 
     text-align: center;
     }
@@ -3566,7 +3095,7 @@
     font-weight: 300;
     margin-bottom: 10px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
    font-family: "Open Sans";
     }
 
@@ -3577,7 +3106,7 @@
     margin-top: 5px;
     margin-bottom: 20px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -3585,7 +3114,7 @@
     font-size: 14px;
     font-weight: 400;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
    font-family: "Open Sans";
     }
 
@@ -3625,7 +3154,7 @@
     .promo-box-offer h4{
     font-size: 17px;
     font-weight: 400;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: 'Open Sans', sans-serif; 
     text-align: center;
     margin-bottom: 0;
@@ -3634,7 +3163,7 @@
     .promo-box-offer h4 a{
     font-size: 17px;
     font-weight: 700;
-    color: #ffffff; 
+    color: #0c1f44; 
     font-family: 'Open Sans', sans-serif; 
     text-align: center;
     }
@@ -3706,7 +3235,7 @@
     font-weight: 300;
     margin-bottom: 10px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -3717,7 +3246,7 @@
     margin-top: 5px;
     margin-bottom: 20px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -3725,7 +3254,7 @@
     font-size: 14px;
     font-weight: 400;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -3735,11 +3264,11 @@
     }
 
     .le-inner .list-item-ex li{
-    color: #ffffff;
+    color: #0c1f44;
     font-size: 14px;
     font-weight: 400;
     text-align:left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     margin-bottom: 15px;
     }
@@ -3775,7 +3304,7 @@
     font-weight: 300;
     margin-bottom: 10px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
@@ -3795,7 +3324,7 @@
     margin-top: 5px;
     margin-bottom: 25px;
     text-align: center;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
    }
 
@@ -3803,7 +3332,7 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #ffffff;
+    color: #0c1f44;
     font-family: "Open Sans";
     }
 
