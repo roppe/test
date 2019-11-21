@@ -291,7 +291,7 @@
     .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: 91px;
+    bottom: 45px;
     left: 0;
     z-index: 15;
     display: -ms-flexbox;
@@ -303,6 +303,25 @@
     margin-left: 15%;
     list-style: none;
  }
+
+
+ .carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(222, 219, 219, 0.5);
+}
+
+
+.carousel-indicators .active {
+    background-color: #a7cee8;
+}
 
 
  .carousel-caption .btn-action-go {
