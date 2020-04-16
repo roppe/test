@@ -3546,80 +3546,272 @@
 	@media (max-width: 575.98px) { 
 	   	
 
-        #our-services {
-        padding-top: 30px;
-        padding-bottom: 60px;
-        background-color: #e6b8b8;
-        }
+    .customer-section .text-box-cust h2{
+    font-size: 24px;
+    }
+    .customer-section .text-box-cust h4{
+    font-size: 17px;
+    }
+
+    .card-impressions .user-caption .text-review{
+    font-size: 13px;
+    }
+
+    .card-impressions .user-caption .user-picture {
+    position: absolute;
+    left: -8px;
+    top: -2px;
+    }
+
+    .navi {
+    bottom: 2%;
+    }
+
+    #features .subtitle-1{
+    font-size: 24px;
+    }
+
+    #features .text-area{
+    padding-left: 10px;padding-right: 10px;
+    }
+
+    #features .text-area h4{
+    font-size: 19px;
+    margin-top: 5px;
+    }
+
+    #features .text-area p{
+    font-size: 15px;
+    }
+
+    #location-hour .map-info .t-1,#location-hour .map-info .t-2,.service-info .t-3,.service-info .t-4{
+    font-size: 21px;
+    }
+
+    #location-hour .service-info{
+    padding-left: 10px;padding-right: 10px;
+    }
+
+    .service-info .open-hours h3{
+    font-size: 15px;
+    }
+
+    .service-info .open-hours li span{
+    font-size: 14px;
+    }
+
+    .contact-box-home .contact-us-form h2{
+    font-size: 24px;
+    }
+
+    .contact-box-home .contact-us-form h3{
+    font-size: 18px;
+    }
+
+    .carousel-caption h2 {
+    font-size: 12px;
+    }
+
+    .carousel-caption p {
+    font-size: 11px;
+    margin-top: 5px;
+    }
+
+    .top-box-btn{
+    margin-top: 15px;
+    padding-bottom: 5px;padding-top: 5px;
+    }
+
+    .carousel-indicators{
+    bottom: -25px;
+    }
+
+    #carousel-2 .carousel-caption {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    left: 5%;
+    z-index: 10;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    top: -8%;
+    width: 60%;
+    }
+
+    .carousel-caption .btn-action-g{
+    font-size: 10px !important;
+    }
+
+    .carousel-caption .btn-action-go{
+    font-size: 10px !important;
+    }
+
+    .carousel-caption .btn-action-go {
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    color: #fff;
+    background-color: #7ed957;
+    display: block;
+    text-transform: uppercase;
+    float: left;
+    width: auto !important;
+    border-radius: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0;
+    font-size: 10px !important;
+    }
+
+    .top-box-btn .btn-location{
+    font-size: 11px;
+    width: : 200px;
+    }
 
 
-       
-        .main-navigation .nav-list .nav-link{
-            margin-top: 5px;
-            padding-top:4px;padding-bottom: 4px;
-             
-        }
+    .navbar-toggler .navbar-toggler-icon .fa {
+    font-size: 30px;
+    display: block !important;
+    color: #0c1f44!important;
+    border: 0;
+    }
 
-        #location-header-section .text-zone-location{
-            padding-top:5px;
-        }
 
-        .single-service img {
-        width: 35%;
-        }
 
-        .location-desc-left h2 {
+    .nav-list .dropdown .nav-dropdown{
+    width: 100%;
+    }
+
+    .nav-list .dropdown .nav-dropdown li {
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+    }
+    .nav-list .dropdown .nav-dropdown a p{
+    text-align: center !important;
+    padding-bottom: 5px;
+    font-size: 12px;
+    }
+
+    .main-navigation .nav-list .nav-link{
+    margin-top: 5px;
+    padding-top: 4px;padding-bottom: 4px;
+    font-size: 12px;
+    }
+
+    .nav-list .dropdown .nav-dropdown li{
+        padding-bottom: 3px;
+    }
+
+
+    .banner-about-cover .services-text-head h2{
+    font-size: 25px;
+    }
+
+    .main-about{
+    padding: 10px;
+    }
+
+    .about-doctor{
+    padding-left: 20px;padding-right: 10px;
+    }
+
+    .about-doctor .text-inner h2{
+    font-size: 24px;
+    margin-top: 15px;
+    }
+
+    .banner-contact-cover .contact-text-head h2{
+        font-size: 25px;
+    }
+
+    .about-doctor .imp-banner-about h4{
+    text-align: center;
+    }
+
+    .banner-main-ser .services-tx-main h2{
+    font-size: 24px;
+    }
+
+    .top-service-tx{
+        padding-left: 15px;padding-right: 15px;
+    }
+
+    .top-service-tx .text-inside h2{
+        font-size: 22px;
+    }
+
+    .top-service-tx .text-inside .ex-list{
+        padding-left: 20px;
+    }
+
+    .service-list .tx-inner-sr{
+        padding-left: 15px;padding-right: 15px;
+    }
+
+    .service-list .tx-inner-sr h2{
+        font-size: 22px;
+    }
+
+    .service-list .tx-inner-sr .main-ser-list{
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    .service-list .tx-inner-sr .list-no-link{
+        padding-left: 20px;
+    }
+
+    .banner-services-cover .services-text-head h2{
+        font-size: 22px;
+    }
+
+    .wrapper-services .first-service-section h3{
         font-size: 21px;
-        }
+    }
 
-        .location-desc-left p {
-        font-size: 13px;
-        }
+    .wrapper-services{
+        padding-left: 10px;padding-right: 10px;
+    }
 
-        .location-desc-left h4 {
-        font-size: 20px;
-        }
+    .main-services-text .in-text h2{
+        font-size: 22px;
+    }
 
-        .location-desc-left h5 {
-        font-size: 14px;
-        }
+    .inside-service-tx-2{
+        padding-left: 15px;padding-right: 15px;
+    }
+    
 
-        #location-description .map-location h3 {
-        font-family: 'Archivo Narrow', sans-serif;
-        font-weight: 500;
-        font-size: 12px;
-        text-align: center;
-        color: #073664;
-        }
+    .main-services-text .in-text .serv-img {
+    display: block;
+    float: none;
+    margin-left:auto; margin-right: auto;
+    }
+    
+    .main-services-text .important-txt-banner{
+        padding-right: 15px;padding-left: 15px;
+    }
 
-        #location-header-section{
-            height: auto;
-            padding-bottom: 75px;
-        }
+    .contact-box-home .contact-us-form{
+        padding-left: 15px;padding-right: 15px;
+    }
+    
 
-        .nav-list .dropdown{
-            margin-top: 5px;
-            margin-left:8px;
-        }
+    .nav-list .dropdown .nav-dropdown{
+        display: block;
+    }
 
-        .nav-list .dropdown .nav-dropdown li{
-            padding-top: 5px;
-            width: 28%;
-        }
+
+
+
 
         
-        .cta-buttons-home .btn-demo-home span {
-        font-size: 11px;
-        }
 
-        .cta-buttons-home .btn-demo-home{
-            width: 150px;
-            padding-top: 6px;padding-bottom: 6px;
-        }
 
-        .top-header .right-button .phone-info{
-            margin-left: 0;
-        }
 
 
 
