@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
-    <meta name="description" content="">
+    <meta name="description" content="Sutphin Eye Care is your one stop shop for all your eyeglass frames needs in Queens, NY. We stock frames from top designer brands.">
 
     <meta name="keywords" content=""/>
     
     <meta name="author" content="">
 
-    <title>eyeglass-frames Sutphin Eye Care</title>
+    <title>Sutphin Eye Care: Eyeglass Frames in NY</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     
@@ -24,6 +24,9 @@
     
     <!-- CSS Main WEBSITE Custom Style -->
     <link href="css/style.css" rel="stylesheet">
+
+     <!-- Google recapthca contact form -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 
   </head>
 
@@ -122,12 +125,12 @@
           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 main-services-text">
                <div class="in-text">
                   <h2>Why Choosing Quality Eyeglass Frames Makes All the Difference</h2>
-                  <p>If you wear glasses on a regular basis, you already know how important it is that your frames handle the everyday wear and tear you put on them. Whether you wear single vision glasses, bifocals, Transitions®, or reading glasses, your frames need to be free of defects for you to see your best.</p>
+			   
+				  <p>If you wear glasses on a regular basis, you already know how important it is that your frames handle everyday wear and tear. Whether you wear single vision glasses, bifocals, Transitions®, or reading glasses, your frames need to be free of defects for you to see clearly.</p>
 
-                  <p>At Sutphin Eye Doctor, we’ll take your lifestyle, vision needs, and budget into consideration to help you choose a quality pair of frames that will last for the long haul. We also understand that you may need different frames for different settings such as the office, the basketball court, or a social event.</p>
-
+				<p>At Sutphin Eye Care, we’ll take your lifestyle, vision needs, and budget into consideration to help you choose a quality pair of frames that will last for the long haul. We also understand that you may need different frames for different settings such as the office, the basketball court, or a social event.</p>
                   <h2>Popular Frames to Consider when Choosing Your New Eyeglasses</h2>
-                  <p>Eyeglass frames are available in a variety of materials that offer their own unique advantages depending on the situation..</p>
+                  <p>Eyeglass frames are available in a variety of materials that offer their own unique advantages, depending on the situation.</p>
 
                  
               
@@ -142,10 +145,9 @@
 
        <div class="row">
            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 inside-service-tx-2">
-              <h3>Shop Designer Frames Styles at Sutphin Eye Care Queens Center</h3>
+              <h3>Shop Designer Frames Styles at Sutphin Eye Care, Queens Center</h3>
               
-              <p>At SutphinEye Doctor, we offer frames to suit any style and budget. Our staff is on hand to help answer your questions and assist you in choosing the right frames for your needs. Some of our top designer brands include:.</p>
-
+              <p>At Sutphin Eye Care, we offer frames that suit any style and budget. Our staff is on hand to help answer your questions and assist you in choosing the right frames for your needs. Some of our top designer brands include:</p>
               <ul>
                 <li><h6>Ray Ban®</h6></li>
                 <li><h6>Prada</h6></li>
@@ -169,7 +171,7 @@
              
          
               
-              <h6 class="imp-txt">Wanna to discuss your concerns and schedule an appointment with a pediatric optometrist today.Regular eye exams for children are so important.<a href="contact.html">Contact us Today</a></h6>
+              <h6 class="imp-txt">Do you want to discuss your concerns and schedule an appointment with a pediatric optometrist today? Regular eye exams are extremely important, so <a href="contact.html">Contact us Today</a></h6>
 
            </div>
 
@@ -177,54 +179,67 @@
 
     </div>
 
-   <section id="contact-us-home">
+    <section id="contact-us-home">
       <div class="container">
       
-
+    
         <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 contact-box-home">
-              <div class="form-area contact-us-form">
-               <h2>Contact Us</h2>
-               <h3>We look forward to hearing from you</h3>
-
-                <form role="form">
-                     
-                    <div class="row">
-                       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="form-group">
-                               <input type="text" class="form-control contact-form-control" id="contact-us-name" name="name" placeholder="Name and Surname" required="">
-                            </div>
-
-                            <div class="form-group">
-                                <input type="text" class="form-control contact-form-control" id="contact-phone" name="phone" placeholder="Phone Number" required="">
-                            </div>
-
-                          <div class="form-group">
-                            <input type="text" class="form-control contact-form-control" id="contact-us-email" name="email" placeholder="E-mail Address" required="">
-                           </div>
-                      </div> 
-
-                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                          <div class="form-group">
-                              <textarea class="form-control contact-form-control" type="textarea" id="text-message-contact" placeholder="Type Your Message Here..." maxlength="500" rows="7"></textarea>
-                          </div>   
-                      </div>
-                      
-                    </div>
-                            
-                    
-                      <button type="button" id="send-now-contact-us" name="send-now-contact-us" class="btn send-message">Submit Now</button>
-                    </form>
-                </form>
-                
-                </div><!-- /col form section all -->    
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 contact-box-home">
+          <div class="form-area contact-us-form">
+           <h2>Schedule an Appointment Today</h2>
+           <h3>Want to Schedule an Appointment or to request additional information about our vision and eye care services?
+            Contact Us Today! Please fill form bellow and we will answer you shortly.</h3>
+    
+           <form method="post" action='submit-handler.php' enctype="multipart/form-data" id="contactformmain" novalidate="novalidate">
+               
+              <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control contact-form-control"   placeholder="Your Full Name" name="userName" required="">
+                  </div> 
+    
+                  <div class="form-group">
+                    <input type="text" class="form-control contact-form-control" placeholder="Your Phone Number" name="phone" required="">
+                  </div>
+    
+                <div class="form-group">
+                  <input type="text" class="form-control contact-form-control" placeholder="Email Address" name="userEmail" required="">
+                 </div>
+              </div> 
+    
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <textarea class="form-control contact-form-control" type="textarea" id="comment" name="comments"  placeholder="Type Your Message Here..." maxlength="500" rows="7" style="margin-top: 0px; margin-bottom: 0px;"></textarea>
+                </div>   
               </div>
-
-             
-
+              
+              </div>
+              
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="g-recaptcha" data-sitekey="Site key goes here"></div>
+                
+                </div> 
+                
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  
+                  <button type="submit" class="btn send-message btn-submit">Submit Now</button>
+                
+                </div> 
+              </div>
+               
+              
+              </form>
+            
+            
+            </div><!-- /col form section all -->    
+          </div>
+    
+           
+    
         </div>
       </div>
-    </section>
+      </section>
    
 
     <section id="location-hour">
@@ -232,7 +247,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-1 map-info">
               <div class="row">
-                 <h2 class="t-1">Location</h2>
+                 <h2 class="t-1">Our Location</h2>
                  <h4 class="t-2">Find us on the map</h4>
 
                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d756.1655787566541!2d-73.80919845145111!3d40.703434182142786!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c260c4e3b9adc7%3A0x18f6df4a408a61ff!2sSutphin%20Eyecare!5e0!3m2!1sen!2srs!4v1567536969919!5m2!1sen!2srs" width="95%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -271,51 +286,55 @@
         </div>
      </div>
   </section>
-  
 
+      
 
+    
    
 
   
     <!--  / Button on right side back to top -->
     <a href="#" id="back-to-top" title="Back to top">&uarr;</a> 
 
-    <footer>
+   
+      <footer>
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                     <ul class="logo-left"> 
                         <li style="margin-bottom:20px;">
-                         <a href="#"><img src="img/white-logo-sutphin.png" alt="whie logo"></a>
+                        <a href="#"><img src="img/white-logo-sutphin.png" alt="whie logo"></a>
                         </li>
                         
-                           <li><p><i class="fa fa-phone"></i>Tel: 718-739-8939</p></li>
-                        <li><p><i class="fa fa-phone"></i>Fax:718-739-2755</p></li>
+                        <li><p><i class="fa fa-phone"></i>Tel: 718-739-8939</p></li>
+                        
+                        <li><p><i class="fa fa-phone"></i>Fax: 718-739-2755</p></li>
+                      
 
                       
                         <li><p><i class="fa fa-map-marker"></i>89-14 Sutphin Blvd, Jamaica, NY 11435</p></li>
 
-                        <li><p><i class="fa fa-envelope-o"></i>sutphineyecare@gmail.com</p></li>
-         
+
+        
                       
                     </ul>
                 </div>
-               
+              
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                     <ul class="social-footer"> 
                       <h3>Find us on</h3>
                       
                       <li><a href="http://facebook.com/pages/Sutphin-EYE-CARE/1390038341235995" target="blank"><img src="img/facebook.png" alt="fb icon"></a></li>   
 
-                     <li><a href="https://foursquare.com/v/sutphin-eye-care/4f7ef435e4b0c69201dcf181" target="blank"><img src="img/social-foursquare.png" alt="social-foursquare"></a></li>  
+                    <li><a href="https://foursquare.com/v/sutphin-eye-care/4f7ef435e4b0c69201dcf181" target="blank"><img src="img/social-foursquare.png" alt="social-foursquare"></a></li>  
 
                     <li><a href="https://www.google.com/maps/place/Sutphin+Eyecare/@40.7035023,-73.8097188,18.25z/data=!4m5!3m4!1s0x89c260c4e3b9adc7:0x18f6df4a408a61ff!8m2!3d40.7033725!4d-73.8087398" target="blank"><img src="img/social-google.png" alt="google "></a></li>  
 
                     <li><a href="https://www.zocdoc.com/doctor/farshad-haiimpour-od-25540" target="blank"><img src="img/social-yelp.png" alt="yelp "></a></li>   
 
-                   <li><a href="https://www.yelp.com/biz/sutphin-eye-care-jamaica" target="blank"><img src="img/social-zocdoc.png" alt="yelp "></a></li>    
-             
-             
+                  <li><a href="https://www.yelp.com/biz/sutphin-eye-care-jamaica" target="blank"><img src="img/social-zocdoc.png" alt="yelp "></a></li>    
+            
+            
                   </ul>
               </div>
             
@@ -326,13 +345,12 @@
         <div class="sub-footer">
           <div class="container">
             <div class="row justify-content-center">
-               <p class="copy">Copyright 2019 © Sutphin Eye Care. All rights reserved.  </p>
-             </div>
+              <p class="copy">Copyright 2020 © Sutphin Eye Care Queens Center | <a href="sitemap.xml">Sitemap</a>  </p>
+            </div>
           </div>
         </div> 
     
-  </footer>
-
+      </footer>
 
 
 

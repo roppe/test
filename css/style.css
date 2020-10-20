@@ -528,19 +528,19 @@
     }
 
     .contact-box-home .contact-us-form h2{
-        font-size: 29px;
+        font-size: 30px;
     font-weight: 700;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: #0c1f44;
-    margin-top: 5px;
+    margin-top: 25px;
     width: 100%;
 
     margin-bottom: 0
     }
 
      .contact-box-home .contact-us-form h3{
-          font-size: 23px;
+          font-size: 17px;
     font-weight: 400;
     text-align:center;
     font-family: 'Open Sans', sans-serif;
@@ -549,24 +549,24 @@
     width: 100%;
     
     margin-bottom:40px;
-    }
+    
      }
 
     .contact-box-home .contact-us-form  .send-message{
     color: #fff;
     font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 210px;
+    width: 100%;
     margin-top: 25px;
     background-color: #396B88;
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     }
 
     .contact-box-home .contact-us-form  .send-message:hover{
@@ -575,7 +575,7 @@
 
     .contact-box-home .contact-us-form .contact-form-control{
     font-size: 13px;
-    color: #ffffff !important;
+    color: #0c1f44;
     background: #ffffff;
      border: 1px solid #b4c2c5;
     border-radius: 0;
@@ -989,7 +989,7 @@
 
     .contact-us-form .contact-form-control{
      font-size: 15px;
-    color: #ffffff !important;
+     color: #0c1f44;
     background: #22364c;
     border:1px solid #f0f4f6;
     border-radius:0;
@@ -1004,11 +1004,7 @@
         color: #0c1f44;
     }
 
-    .contact-form-control:focus {
-    border: 1px solid #76C857 !important;
-     -webkit-box-shadow: none;
-    outline: -webkit-focus-ring-color auto 0px;
-    }
+
 
     /* book zocdoc section on right */
 
@@ -1300,7 +1296,7 @@
     list-style-type: none;
     padding-left: 0;
     width: 100%;
-    margin-top: 22px;
+    margin-top: 0;
     }
 
      footer .text-rights{
@@ -1588,6 +1584,19 @@
     letter-spacing: 1px;
     margin-bottom: 3px;
     }
+
+    .sub-footer .copy a{
+        font-family: "Roboto";
+    font-weight: 600;
+    color: #0c1f44 !important;
+    text-align: center;
+    display: block;
+    font-size: 11px;
+    float: right;
+ 
+ 
+    }
+
 
 
     /* ------ Our promotions webpage ------------  */
@@ -3387,11 +3396,95 @@
     font-weight: 600;
     }
 
+
+      
+    .thank-you{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        margin-top: 130px;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);
+        background-color: #fafafa;
+        margin-bottom: 50px;
+    }
+
+    .thank-you h2{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        /* color: #f88936 !important; */
+        color: #05233b;
+        font-size: 34px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .thank-you h4{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        /* color: #f88936 !important; */
+        color: #05233b;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .thank-you img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .thank-you a{
+        margin-top: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        color: #039be5;
+
+    }
+
+    .thank-you a .fa{
+        margin-left: 10px;
+    }
+
     
 
     /* -------------------  RESPOSNIVE DESGIN -------------------  */
     
+    @media (max-width: 1190px) {
+        .banner-services-cover .services-text-head h2 {
+            font-size: 29px;
+            font-family: "Open Sans";
+            text-align: center;
+            color: #0c1f44;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-top: 10px;
+        }
 
+        .main-navigation .nav-list .nav-link{
+            font-size: 11px;
+        }
+
+        .banner-about-cover .services-text-head h2 {
+            font-size: 33px;
+           
+        }
+
+        .carousel-caption h2 {
+            margin: 0;
+            padding: 0;
+            font-family: "Open Sans";
+            font-weight: 700;
+            font-size: 27px;
+            letter-spacing: 2px;
+            color: #00234b;
+        }
+    }
 
 
 
@@ -3568,7 +3661,14 @@
     }
 
     #features .subtitle-1{
-    font-size: 24px;
+    font-size: 21px;
+    }
+
+    .about-doctor .text-inner .doc-pic {
+        display: block;
+      margin-right: auto;
+      margin-left: auto;
+      float: none;
     }
 
     #features .text-area{
@@ -3660,15 +3760,15 @@
     border-radius: 0;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 0;
     font-size: 10px !important;
     }
 
     .top-box-btn .btn-location{
     font-size: 11px;
-    width: : 200px;
+    width: 200px;
     }
 
 
@@ -3804,7 +3904,29 @@
     .nav-list .dropdown .nav-dropdown{
         display: block;
     }
-
+    .thank-you h2{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        /* color: #f88936 !important; */
+        color: #05233b;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .thank-you h4{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        /* color: #f88936 !important; */
+        color: #05233b;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
 
 
 
