@@ -47,7 +47,7 @@ font-family: 'Roboto', sans-serif;
 		
 		font-size: 13px;
 	
-		margin-right:5px;
+		margin-right:14px;
 		margin-top: 10px;
 		text-align: center;
 		}
@@ -2246,7 +2246,7 @@ text-align: left;
 
 
 	#home-about {
-	padding-top:40px;
+	padding-top:0;
 	padding-bottom: 25px;
 	position: relative;
 	background-repeat: no-repeat;
@@ -2268,6 +2268,7 @@ text-align: left;
 	margin-top:-100px;
 	position: relative;
 	border-right: 1px solid #2476ad;
+	height: 160px;
 	
 	}
 
@@ -2289,7 +2290,7 @@ text-align: left;
 	font-family: 'Roboto';
 	font-weight: 400;
 	color: #fff;
-	font-size: 18px;
+	font-size: 15px;
 	text-align: left;
 	margin-top: 5px;
 
@@ -2306,12 +2307,127 @@ text-align: left;
 	}
 
 
+	/* Book form */
+
+	
+	.book-quote  .send-message{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background-color:  #eeb72d;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 100%;
+	border:none;
+
+
+	}
+
+	.top-form{
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+	background-color: #fafafa;
+	padding-left: 0;padding-right: 0;
+	margin-top: -187px;
+	border-radius:15px;
+	}
+
+	.top-form h2{
+	font-family: 'Roboto';
+	font-weight: 400;
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+	margin-top:0;
+	text-transform: uppercase;
+	background-color: #3088C3;
+	padding-top: 10px;padding-bottom:10px;
+	margin-bottom:3px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	}
+
+	.book-quote{
+		
+	}
+
+	.book-quote .form-group{
+	margin-bottom: 9px;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+	.book-quote .side{
+		width: 50%;
+		float: left;
+		padding-left: 0;
+		padding-right: 0;
+		}
+
+	.book-quote .contact-form-control{
+	font-size: 13px;
+	color: #1d7071;
+	background:#ecf1f0;
+
+	border: 1.5px solid #e4e3e3;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	padding-top:7px;
+	font-weight: 400;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	width: 100%;
+	}
+
+
+	.book-quote .form-side{
+		font-size: 13px;
+		color: #1d7071;
+		background:#ecf1f0;
+	
+		border: 1.5px solid #e4e3e3;
+		border-radius: 5px;
+		font-family: 'Roboto', sans-serif;
+		padding-top:7px;
+		font-weight: 400;
+		padding-bottom: 7px;
+		padding-left: 15px;
+		width:48%;
+		float: left;
+		margin-bottom: 9px;
+		margin-right: 7px;
+		}
+
+		.book-quote .form-side:last-child{
+			margin-right: 0;
+		}
+	.book-quote 	.form-control .placeholder{
+	color: #000;
+	}
+
+	.book-quote.contact-form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color:#414242;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	opacity: 1; /* Firefox */
+	}
+	
 	
 	/* Our Services Home */
 
 
 	#section-services{
-	padding-top: 40px;
+	padding-top: 10px;
 	padding-bottom: 70px;
 	margin-top: 30px;
 
@@ -2428,8 +2544,9 @@ text-align: left;
 	padding-bottom: 20px;
 	margin-bottom: 15px;
 	padding-left:50px;padding-right: 50px;
-	background-color: #3088C3;
+	background-color: #fafafa;
 	position: relative;
+	border-top-left-radius: 45px;
 
 	}
 
@@ -2437,6 +2554,12 @@ text-align: left;
 		padding-top: 40px;
 		padding-bottom: 40px;
 		position: relative;
+	
+	}
+
+	.our-goals .second-img{
+		max-height:100%;
+		object-fit: contain;
 	}
 
 
@@ -2445,7 +2568,7 @@ text-align: left;
 	font-size: 32px;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #fff;
+	color:#3088C3;
 	text-align: left;
 	width: 100%;
 	margin-bottom: 5px;
@@ -2458,7 +2581,7 @@ text-align: left;
 	
 	.first-side h4{
 	font-weight: 400;
-	color: #fff;
+	color: #575757;
 
 	text-align:left;
 	width: 100%;
@@ -2477,7 +2600,7 @@ text-align: left;
 	
 	.first-side  p{
 	font-weight: 400;
-	color: #fff;
+	color: #575757;
 	font-size: 14px;
 	text-align: left;
 	margin-top: 3px;
@@ -2487,7 +2610,7 @@ text-align: left;
 
 	.first-side  h6{
 	font-weight: 400;
-	color: #fff;
+	color: #3088C3;
 	font-size: 18px;
 	text-align: left;
 	margin-top: 10px;
