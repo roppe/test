@@ -667,7 +667,7 @@
     font-size: 18px;
     margin-top: 10px;
     text-align: left;
-    text-shadow: 0px 1px #000;
+  
     }
 
     .banner-call .call-left a{
@@ -2429,21 +2429,110 @@
     /* -------------------  RESPOSNIVE DESGIN -------------------  */
     
       @media (max-width: 1079px) {
+        
+       
+
+        .contact-informations h2 span{
+            font-size: 33px;
+        }
+        .contact-informations h2{
+            font-size: 22px;
+        }
+
+        #home-fleet h2{
+            font-size: 32px;
+        }
+
+        #top-limo h2{
+            font-size: 33px;
+        }
+
+        #top-limo p{
+            font-size: 15px;
+        }
+
+        .txt-services h3{
+            margin-top: 5px;
+        }
+
+        #top-limo{
+            
+            padding-bottom: 40px;
+        }
+
+        .fort-banner{
+            height: 450px;
+        }
+
+        .mini-call-two{
+            width: 98%;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 50px;
+        }
+
+        #commercial-section h2 {
+            font-size: 31px;
+        }
+
+        #top-limo{
+            background-position:none;
+        }
+
+        .c-list li p{
+            font-size: 12px;
+        }
+
+        .c-list li a{
+            font-size: 12px;
+        }
+
+        .txt-services h2 {
+            color: #ffffff;
+            font-size: 33px;
+            text-align: left;
+          
+        }
+
+        .about-cover-top .text-headline{
+            left: 0;
+            top: 0;
+        }
+
+        .main-services{
+            padding-top: 20px;
+        }
+
+        .about-cover-top{
+            height: 450px;
+        }
+
+        .main-navigation .logo-header {
+            display: block;
+            float: left;
+            width: 270px !important;
+            height: 55px;
+            background: url(../img/mobile-logo.png) 0 0 no-repeat;
+            margin-right: 0 !important;
+            margin-top: 10px;
+        }
 
           .main-navigation .nav-list .nav-link{
-            font-size: 11px;
+            font-size: 9px;
           }
 
-          #buy-txt-section .repair-content h2{
-            font-size: 24px;
-          }
 
           .banner-call .call-left h4{
-            font-size: 18px;
+            font-size: 23px;
+            margin-bottom: 25px;
           }
 
           .banner-call .call-left h5{
-            font-size: 26px;
+            font-size: 16px;
+          }
+
+          .gallery h2{
+              font-size: 30px;
           }
 
               .banner-call .call-left h5 span {
@@ -2486,7 +2575,101 @@
 
     @media (max-width: 991px) {
         
-       
+        
+        
+
+        .contact-informations .hero-call span{
+            font-size: 28px;
+        }
+
+        .contact-informations h3{
+            font-size: 14px;
+            width: 330px;
+            padding-bottom: 15px;
+        }
+
+        .c-list li img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: none;
+        }
+
+        .c-list li p {
+            font-size: 12px;
+            text-align: center;
+        }
+        
+        
+        
+
+        .banner-cover-top{
+            height: 450px;
+        }
+
+        .why-list li{
+            width: 35%;
+        }
+
+        .mini-call-two{
+            font-size: 16px;
+        }
+
+        .mini-call-two a{
+            font-size: 19px;
+        }
+
+        .banner-cover-top .text-headline{
+            left: 0;
+            top: 0;
+            
+        }
+
+        #commercial-section h2{
+            font-size: 34px;
+        }
+
+        .services-list li{
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-right: 15px;
+        }
+
+        .services-list li h6{
+            font-size: 15px;
+        }
+
+        .main-services {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        .txt-services h2 {
+            color: #d8b25b;
+            font-size: 30px;
+            text-align: left;
+        }
+
+        .contact-top .text-contact h2{
+            font-size: 35px;
+        }
+
+        .call-footer a span{
+            font-size: 23px;
+        }
+
+        .call-us-button{
+            width: 495px;
+            font-size: 30px;
+            padding-top: 12px;padding-bottom: 12px;
+        }
+        .nav-list .nav-item .btn-nav-book{
+            width: 270px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
 
         #top-section .tx-box-1 h2{
         font-size: 22px;
@@ -2505,11 +2688,11 @@
         }
 
         .banner-call .call-left h4{
-        font-size: 17px;
+        font-size: 24px;
         }
 
         .banner-call .call-left h5{
-        font-size: 24px;
+        font-size: 17px;
         }
 
         .banner-call .call-left h5 span{
@@ -2534,7 +2717,7 @@
         }
 
         .info-left-side{
-            border-top: 2px solid #eee;
+          
             padding-top: 20px;
         }
 
@@ -2650,7 +2833,55 @@
 
     @media (max-width: 767.98px) {
 
+        
 
+        .c-list li {
+            list-style-type: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            display: inline-block;
+            margin-right: 9px;
+            box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+            width: 43%;
+            margin-top: 20px;
+            background-color: #181F27;
+        }
+
+        #contact-section{
+            height: 600px;
+        }
+
+        .services-list li {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-right: 15px;
+            width: 43%;
+        }
+
+        .inner-services{
+            height: auto;
+            padding-bottom: 80px;
+        }
+
+        .services-list li p {
+            font-size: 13px;
+        }
+
+        .txt-services h2 {
+             color: #fff; 
+            font-size: 30px;
+            text-align: left;
+        }
+        
+
+        .main-services {
+            padding-top: 20px;
+        }
+
+        .gallery h3{
+            font-size: 16px;
+        }
 
         .process-steps{
         max-width: 100%;
@@ -2676,7 +2907,7 @@
         }
 
         .banner-call .call-left h4 {
-        font-size: 13px;
+        font-size: 25px;
         }
 
         .banner-call .call-left h5 {
@@ -2700,26 +2931,7 @@
             margin-bottom: 30px;
         }
 
-        #buy-txt-section .repair-content p{
-            font-size: 13px;
-        }
-
-        .section-how-it-work .box-text-6 h2 {
-        font-size: 21px;
-        }
-
-        .section-how-it-work .how-steps p{
-            font-size: 13px;
-        }
-
-        .inner-how-it-work-1 .first-side-work .text-description {
-        font-size: 13px;
-        }
-
-        #buy-txt-section .repair-content h2 {
-        font-size: 23px;
-        }
-
+       
         .logo-left li a img{
             display: block;
             margin-left: auto;
@@ -2742,14 +2954,7 @@
         height: 85px;
         }
 
-        #we-buy-section .tx-box h4 {
-        font-size: 15px;
-        }
-
-        #we-buy-section .title-box h2 {
-        font-size: 17px;
-        text-align: center;
-        }
+      
 
 
 
@@ -2762,7 +2967,207 @@
 
 	
 	@media (max-width: 575.98px) { 
-	
+        
+     
+
+        .c-list li {
+            list-style-type: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            display: inline-block;
+            margin-right: 11px;
+            box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+            width: 44%;
+            margin-top: 20px;
+            background-color: #181F27;
+        }
+        .c-list li img {
+           
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: none;
+           
+        }
+
+        .c-list li p {
+            font-size: 13px;
+            text-align: center;
+        }
+
+        #home-fleet h2{
+            font-size: 30px;
+        }
+
+        .banner-home .call-inner a{
+            font-size: 22px;
+        }
+
+        .contact-informations h2 span{
+            font-size: 18px;
+        }
+
+        .contact-informations h2{
+            font-size: 17px;
+            margin-bottom:80px;
+        }
+
+        .contact-informations h3{
+            display: none;
+        }
+
+        #contact-section{
+            height: 335px;
+            padding-top: 45px;
+        }
+
+        .banner-home .call-inner h4{
+            font-size: 28px;
+        }
+       
+        #top-limo{
+            background:#181f27;
+        }
+        .banner-cover-top {
+            height: 250px;
+          
+            
+        }
+        .contact-informations .hero-call{
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .contact-informations .hero-call span {
+            font-family: "Roboto";
+            font-weight: 600;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 17px;
+            text-align: center;
+            letter-spacing: 1px;
+            border: 3px solid #fff;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-right: 45px;
+            border-radius: 25px;
+            background-color: #181f27;
+        }
+
+        .contact-informations .hero-call span img {
+            margin-right: 20px;
+            margin-left: -20px;
+            margin-top: -4px;
+            width: 50px;
+        }
+
+        #contact-section .contact-informations {
+            display: block;
+            z-index: 1;
+        }
+        
+        .fort-banner {
+            height: 250px;
+        }
+
+        #top-limo h2 {
+            font-size: 28px;
+        }
+
+        .txt-services h3{
+            margin-top: 10px;
+        }
+
+        .gallery h3 {
+            font-size: 15px;
+        }
+
+        .banner-call .call-left a{
+            font-size: 22px;
+        }
+
+        .services-list li {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-right:0;
+            width: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #commercial-section p{
+            font-size: 14px;
+        }
+
+        .why-list li {
+            width: 40%;
+        }
+
+        .why-list li img {
+            width: 50px;
+            height: 50px;
+            display: block;
+            float:none;
+            
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .services-list li:last-child {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .banner-call{
+            height: 650px;
+        }
+
+        .why-list li p{
+            text-align: center;
+        }
+
+        .about-cover-top {
+            height: 255px;
+        }
+
+        #commercial-section h2 {
+            font-size: 27px;
+        }
+
+        #commercial-section h3{
+            font-size: 17px;
+        }
+
+        .contact-top .text-contact h2 {
+            font-size: 26px;
+        }
+
+        .call-us-button {
+            width: 98%;
+            font-size: 25px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 5px;
+        }
+
+        .call-us-button img {
+            margin-right: 10px;
+            width: 58px;
+        }
+
+        .contact-top{
+            height: auto;
+            background-size: cover;
+        }
+
+        .contact-top .text-contact{
+            margin-top: 30px;
+        }
 
         #home-section .text-area h2 span{
             font-size: 24px;
@@ -2777,7 +3182,7 @@
         }
 
         .banner-call .call-left h5 {
-        font-size: 10px;
+        font-size: 15px;
         }
 
         .info-left-side h2 {
@@ -2830,12 +3235,12 @@
             margin-left: 5px;
         }
 
-        .banner-call .call-left h5 span a .fa {
-    margin-left: 10px;
-    margin-right: 8px;
-    font-size: 18px;
-    color: #fff;
-}
+                .banner-call .call-left h5 span a .fa {
+                margin-left: 10px;
+                margin-right: 8px;
+                font-size: 18px;
+                color: #fff;
+                }
 
         .banner-call .call-left h5 span .fa {
         margin-left: 4px;
@@ -2857,48 +3262,7 @@
         font-size: 18px;
         }
 
-        #we-buy-section .tx-box h2 {
-        font-size: 18px;
-        }
-
-        #we-buy-section .tx-box h4 {
-        font-size: 14px;
-        }
-
-        .product-list li img{
-            width: 65px;
-            height: 65px;
-        }
-
-        .product-list li {
-        width: 33%;
-        }
-
-        .title-box h2 img {
-        margin-right: 10px;
-        margin-bottom: 5px;
-        width: 15%;
-        }
-
-        .section-how-it-work .box-text-6 h2 {
-        font-size: 19px;
-        }
-
-        .section-how-it-work .how-steps .headline{
-        font-size: 14px;
-        }
-
-        .demo-box{
-        background-size: cover;
-        }
-
-        .banner-call .call-left h5 span{
-        font-size: 14px;
-        }
-
-        .demo-box .box-content h3{
-            font-size: 19px;
-        }
+     
 
 
 	} /* end mobile responsive media querie*/
