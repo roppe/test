@@ -235,7 +235,7 @@
      /*contact us section*/
 
     #contact-section{
-    background: url(../img/welcome-limousine.jpg) no-repeat;
+    background: url(../img/limo-cover-fort.jpg) no-repeat;
     position: relative;
     background-repeat: no-repeat;
     padding:160px 0 10px;
@@ -371,13 +371,13 @@
     color: #fff;
     font-weight: 600;
     letter-spacing:1px;  
-    margin-bottom:100px;
+    margin-bottom:90px;
     
-    padding-top:20px;padding-bottom: 20px;
+    padding-top:0;padding-bottom:0;
     padding-left: 40px;
     animation: breath 2s ease-in-out alternate infinite;
 
-    
+    text-shadow: 2px 2px #0a0a0a;
     
     }
 
@@ -399,6 +399,8 @@
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 2px 2px #0a0a0a;
+
   
     
     }
@@ -410,6 +412,7 @@
     font-size: 18px;
     text-align: left;
     padding-left: 40px;
+
     }
 
     .contact-informations h6 .fa{
