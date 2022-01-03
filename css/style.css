@@ -16,7 +16,13 @@
     display: block !important;
     color: #d8b25b;
     border:0;
+    outline: none!important;
     }
+
+    .navbar-toggler:focus {
+        outline: none !important;
+        box-shadow: none;
+     }
 
     .main-navigation .logo-header{
     display: block;
@@ -41,7 +47,7 @@
     font-weight:600;
     color: #fff;
     text-transform:uppercase;
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 1px !important;
     margin-right:10px;
     margin-top: 15px;
@@ -1080,7 +1086,7 @@
         
     
             #home-fleet{
-            background: url(../img/about-sky.png) no-repeat;
+            background: url(../img/about-sky.jpg) no-repeat;
             height: 905px;
             background-position: center;
             padding-top: 100px;
@@ -1101,9 +1107,9 @@
         
             #home-fleet h3{
             font-family: "Roboto";
-            font-weight: 400;
+            font-weight: 600;
             color: #181F27;
-            font-size: 20px;
+            font-size: 22px;
             text-align: left;
             margin-top: 20px;
             margin-bottom: 5px;
@@ -1112,7 +1118,7 @@
         
             #home-fleet p{
             font-family: "Roboto";
-            font-weight: 400;
+            font-weight: 500;
             color: #181F27;
             font-size: 16px;
             text-align: left;
@@ -1606,8 +1612,8 @@
         margin-top: 40px;
         padding-top: 15px;
         position: absolute;
-        left: 50px;
-        top:30%;
+        left: 0;
+        top:0;
         }
 
 
@@ -1643,6 +1649,8 @@
         margin-top: 25px;
         background-color: #181f27;
         border: 2px solid #d8b25b;
+        height: 280px;
+        float: left;
         }
         .services-list li:last-child{
         margin-right: 0;
@@ -2042,6 +2050,7 @@
     .about-cover-top{
         padding-bottom:70px;
         margin-top:79px;
+        background-color: #181F27;
 
         background: url(../img/about-us-limo-cover.jpg) no-repeat;
         width: 100%;
@@ -2098,8 +2107,8 @@
         margin-top: 40px;
         padding-top: 15px;
         position: absolute;
-        left: 50px;
-        top:30%;
+        left: 0;
+        top:0;
         }
 
     .gallery{
@@ -2431,9 +2440,14 @@
 
     /* -------------------  RESPOSNIVE DESGIN -------------------  */
     
-      @media (max-width: 1079px) {
+     
+    
+    
+    
+    @media (max-width: 1079px) {
         
        
+     
 
         .contact-informations h2 span{
             font-size: 33px;
@@ -2574,12 +2588,63 @@
 
 
 	/* Responsive Design Changes fixes CSS Tablet  */
-	
+
+    @media (max-width: 1200px) {
+       
+       
+
+        #contact-section{
+            height: 850px;
+        }
+
+        .c-list li p{
+            font-size: 13px;
+        }
+
+
+        .main-navigation .nav-list .nav-link {
+            font-family: "Roboto";
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 10px;
+           
+            margin-right: 5px;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+
+    }
+        
 
     @media (max-width: 991px) {
+
+        #contact-section{
+            height: 740px;
+        }
+
+        .contact-top .text-contact h6{
+            font-weight: 500;
+            color: #d8b25b;
+        }
+
+        .txt-services h3{
+            color: #fff;
+        }
         
-        
-        
+        .services-list li p{
+            font-size: 13px;
+        }
+
+        .services-list li{
+            width: 300px;
+        }
+
+        .inner-services{
+            height: auto;
+            padding-bottom: 50px;
+        }
 
         .contact-informations .hero-call span{
             font-size: 28px;
@@ -2648,9 +2713,13 @@
         }
 
         .txt-services h2 {
-            color: #d8b25b;
+            color: #fff;
             font-size: 30px;
             text-align: left;
+        }
+
+        .txt-services p{
+            font-weight: 500;
         }
 
         .contact-top .text-contact h2{
@@ -2836,6 +2905,12 @@
 
     @media (max-width: 767.98px) {
 
+      
+
+        .contact-top .text-contact h2{
+          
+            color: #d8b25b;
+        }
         
 
         .c-list li {
@@ -2860,6 +2935,7 @@
             padding-right: 15px;
             margin-right: 15px;
             width: 43%;
+            height: 300px;
         }
 
         .inner-services{
@@ -2970,8 +3046,27 @@
 
 	
 	@media (max-width: 575.98px) { 
-        
-     
+       
+       
+
+        .contact-top .text-contact h2 {
+            color: #181F27  !important;
+            font-size: 25px;
+        }
+
+        .contact-top .text-contact h6 {
+            font-weight: 500;
+            color: #181F27;
+            font-size: 15px;
+        }
+
+        #home-fleet {
+            background: url(../img/light-sky.jpg) no-repeat;
+            height:auto;
+            background-position: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
 
         .c-list li {
             list-style-type: none;
@@ -3012,8 +3107,9 @@
         }
 
         .contact-informations h2{
-            font-size: 17px;
-            margin-bottom:80px;
+            font-size: 12px;
+            margin-bottom:20px;
+            margin-top: 90px;
         }
 
         .contact-informations h3{
@@ -3031,6 +3127,8 @@
        
         #top-limo{
             background:#181f27;
+            height: auto;
+            padding-bottom: 50px;
         }
         .banner-cover-top {
             height: 250px;
@@ -3070,11 +3168,18 @@
         #contact-section .contact-informations {
             display: block;
             z-index: 1;
+            margin-top: 30px;
         }
         
         .fort-banner {
             height: 250px;
         }
+
+        .txt-services p {
+            font-weight: 500;
+        }
+
+        
 
         #top-limo h2 {
             font-size: 28px;
@@ -3085,7 +3190,7 @@
         }
 
         .gallery h3 {
-            font-size: 15px;
+            font-size: 14px;
         }
 
         .banner-call .call-left a{
@@ -3096,11 +3201,20 @@
             padding-left: 15px;
             padding-right: 15px;
             margin-right:0;
-            width: 90%;
+            width: 100%;
             display: block;
             margin-left: auto;
             margin-right: auto;
+            height: 250px;
         }
+        .mini-call-two a {
+            font-size: 21px;
+        }
+
+        .sub-footer .copy{
+            font-size: 9px;
+        }
+        
 
         #commercial-section p{
             font-size: 14px;
@@ -3127,7 +3241,12 @@
         }
 
         .banner-call{
-            height: 650px;
+            height: 500px;
+            background: #181F27 !important;
+        }
+
+        .gallery h2 {
+            font-size: 26px;
         }
 
         .why-list li p{
@@ -3139,7 +3258,7 @@
         }
 
         #commercial-section h2 {
-            font-size: 27px;
+            font-size: 24px;
         }
 
         #commercial-section h3{
